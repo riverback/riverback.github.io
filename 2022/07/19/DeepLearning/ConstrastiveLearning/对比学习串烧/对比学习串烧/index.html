@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV19S4y1M7hm?share_source&#x3D;copy_web&amp;vd_source&#x3D;02f51795b9dbd04a028c4e42006b8484 百花齐放InstDisc里程碑式的工作 Unsupervised Feature Learning via Non-Parametric Instance Discrimin">
+<meta property="og:type" content="article">
+<meta property="og:title" content="对比学习串烧">
+<meta property="og:url" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/index.html">
+<meta property="og:site_name" content="Hangzhou He">
+<meta property="og:description" content="https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV19S4y1M7hm?share_source&#x3D;copy_web&amp;vd_source&#x3D;02f51795b9dbd04a028c4e42006b8484 百花齐放InstDisc里程碑式的工作 Unsupervised Feature Learning via Non-Parametric Instance Discrimin">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718111654732.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718112848045.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718113835793.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718115323944.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718135147373.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718135331990.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718135916213.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718140030513.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718140420999.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718141421432.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718141659728.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718143003002.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718143720000.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718144447212.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718145049976.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718145532998.png">
+<meta property="og:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718151549449.png">
+<meta property="article:published_time" content="2022-07-19T10:29:00.000Z">
+<meta property="article:modified_time" content="2022-08-15T15:57:46.504Z">
+<meta property="article:author" content="Hangzhou He">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/image-20220718111654732.png">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>对比学习串烧</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="https://github.com/riverback">Projects</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="Previous post" href="/2022/08/15/hello-world/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&text=对比学习串烧"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&title=对比学习串烧"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&is_video=false&description=对比学习串烧"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=对比学习串烧&body=Check out this article: http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&title=对比学习串烧"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&title=对比学习串烧"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&title=对比学习串烧"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&title=对比学习串烧"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&name=对比学习串烧&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&t=对比学习串烧"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%99%BE%E8%8A%B1%E9%BD%90%E6%94%BE"><span class="toc-number">1.</span> <span class="toc-text">百花齐放</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#InstDisc"><span class="toc-number">1.0.1.</span> <span class="toc-text">InstDisc</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#InvaSpread"><span class="toc-number">1.0.2.</span> <span class="toc-text">InvaSpread</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#CPC-Constrastive-Predictive-Coding"><span class="toc-number">1.0.3.</span> <span class="toc-text">CPC(Constrastive Predictive Coding)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#CMC-Constrastive-Multiview-Coding"><span class="toc-number">1.0.4.</span> <span class="toc-text">CMC(Constrastive Multiview Coding)</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CV%E5%8F%8C%E9%9B%84"><span class="toc-number">2.</span> <span class="toc-text">CV双雄</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Moco"><span class="toc-number">2.0.1.</span> <span class="toc-text">Moco</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#SimCLR"><span class="toc-number">2.0.2.</span> <span class="toc-text">SimCLR</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#MoCo-v2"><span class="toc-number">2.0.3.</span> <span class="toc-text">MoCo v2</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#SimCLR-v2"><span class="toc-number">2.0.4.</span> <span class="toc-text">SimCLR v2</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#SwAV"><span class="toc-number">2.0.5.</span> <span class="toc-text">SwAV</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8D%E7%94%A8%E8%B4%9F%E6%A0%B7%E6%9C%AC"><span class="toc-number">3.</span> <span class="toc-text">不用负样本</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#BYOL"><span class="toc-number">3.0.1.</span> <span class="toc-text">BYOL</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#SimSiam"><span class="toc-number">3.0.2.</span> <span class="toc-text">SimSiam</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Transformer"><span class="toc-number">4.</span> <span class="toc-text">Transformer</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#MoCo-v3"><span class="toc-number">4.0.1.</span> <span class="toc-text">MoCo v3</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#DINO"><span class="toc-number">4.0.2.</span> <span class="toc-text">DINO</span></a></li></ol></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        对比学习串烧
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Hangzhou He</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2022-07-19T10:29:00.000Z" itemprop="datePublished">2022-07-19</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/DeepLearning/">DeepLearning</a> › <a class="category-link" href="/categories/DeepLearning/Constrative-Learning/">Constrative-Learning</a> › <a class="category-link" href="/categories/Overview/">Overview</a>
+    </div>
+
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV19S4y1M7hm?share_source=copy_web&amp;vd_source=02f51795b9dbd04a028c4e42006b8484">https://www.bilibili.com/video/BV19S4y1M7hm?share_source=copy_web&amp;vd_source=02f51795b9dbd04a028c4e42006b8484</a></p>
+<h2 id="百花齐放"><a href="#百花齐放" class="headerlink" title="百花齐放"></a>百花齐放</h2><h4 id="InstDisc"><a href="#InstDisc" class="headerlink" title="InstDisc"></a>InstDisc</h4><p>里程碑式的工作</p>
+<p><em>Unsupervised Feature Learning via Non-Parametric Instance Discrimination</em>.</p>
+<p>提出了代理任务，也就是个体代理任务。</p>
+<p>受到了有监督学习方法的启发，认为许多图片样本聚集在一起的原因，并不是因为有相似的语义标签，而是图片本身就很相似。（文中举的例子是分类任务里面，输入一张猎豹的图片，分类得分中排名前几的结果是猎豹，雪豹等，而排名靠后的判断是跟豹子一点关系没有的类别）。</p>
+<p>根据这个观察提出了个体判别的代理任务，把class这个类别信号发挥到极致，把每一个instance都看作是一个类别，也就是每一张图片都看作是一个类别。</p>
+<p>通过一个卷积神经网络，把所有的图片都编码成一个特征，希望这些特征在最终得到的特征空间里可以尽可能的分开。</p>
+<img src="image-20220718111654732.png" alt="image-20220718111654732" style="zoom:67%;" />
+
+<p>使用对比学习来训练这个卷积神经网络，因此需要有正样本和负样本。正样本是每一张图片本身+数据增强，负样本就是所有其他的图片。</p>
+<p>对于大量的负样本特征，使用了’Memory Bank’来存储，相当于一个大字典，由于数据量较大，所以使用是128维的向量来存储特征。每一轮里面，当前batch里的样本为正样本，负样本就从memory bank中随机抽取一部分。</p>
+<p>如果有了正样本也有了负样本，就可以使用NCE loss去计算对比学习的目标函数，然后更新完网络之后，再用更新后的网络，对当前的batch里的数据的特征向量进行更新。接下来就反复重复这个过程。</p>
+<p>也提出了对特征进行动量更新。</p>
+<h4 id="InvaSpread"><a href="#InvaSpread" class="headerlink" title="InvaSpread"></a>InvaSpread</h4><p><em>Unsupervised Embedding Learning via Invariant and Spreading Instance Feature</em></p>
+<p>CVPR 2019</p>
+<p>是SimCLR的一个前身</p>
+<p>没有使用其他的数据结构来存储负样本，他的正负样本就来自一个mini-batch，而且只使用了一个编码器进行端到端的学习。</p>
+<p>主要思想就是，对于相似的物体或者图片，它的特征应该保持不变性(Invariant)，但是对于不相似的物体，特征应该尽可能的分散开(Spreading)。</p>
+<p>代理任务上也是选取了个体判别的代理任务，主要特点在于正负样本的获取上</p>
+<img src="image-20220718112848045.png" alt="image-20220718112848045" style="zoom:67%;" />
+
+<p>如果batch size是256，经过数据增强后下面又得到了256张图片，对于$x_1$这张图片，正样本就是$x_1$和$x_1^{\prime}$，负样本就是剩下所有的图片。</p>
+<p>剩下的过程就和InstDisc相似了，使用的loss也是NCE loss的变体。</p>
+<h4 id="CPC-Constrastive-Predictive-Coding"><a href="#CPC-Constrastive-Predictive-Coding" class="headerlink" title="CPC(Constrastive Predictive Coding)"></a>CPC(Constrastive Predictive Coding)</h4><p><em>Representation Learning with Constrastive Predictive Coding</em></p>
+<p>前面两个工作都是使用个体判别作为代理任务，本文则提出了新的代理任务CPC(Constrastive Predictive Coding).</p>
+<p>机器学习主要就可以分成两大类，一类是判别式模型，一类是生成式模型，个体判别属于是判别式范围，本文的CPC就属于生成式的代理任务，比如说这种预测式的任务。</p>
+<p>大概的想法是，我们有一个持续的序列，比如输入$x$，有当前时刻的输入($x_{t-3},x_{t-2},x_{t-1},x_t$)，也有未来的时刻的。</p>
+<p>把当前时刻的输入全部扔给一个编码器，编码器返回一些特征，把特征喂给一个自回归的模型($g_{ar}$, auto-regression)，常见的比如RNN或者LSTM，就可以得到$c_t$(context representation)，也就是上下文的特征表示。</p>
+<p>$c_t$作为prediction的结果，它的正样本是未来时刻的输入通过编码器得到的($z_{t+1},z_{t+2}$)，负样本的定义就比较广泛，可以通过随机抽取样本，通过编码器得到输出，由于是随机抽取的样本，所以得到的输出和prediction应该是很不相似的。</p>
+<p>文中使用语音信号举的例子，比如在文字上，可以通过段落里面前面的单词预测后面的单词，对于图片输入，可以从左上到右下形成一个序列，就有了前面的patch和后面的patch，就可以用上半部分的图片来预测下半部分的图片特征。</p>
+<img src="image-20220718113835793.png" alt="image-20220718113835793" style="zoom:67%;" />
+
+<h4 id="CMC-Constrastive-Multiview-Coding"><a href="#CMC-Constrastive-Multiview-Coding" class="headerlink" title="CMC(Constrastive Multiview Coding)"></a>CMC(Constrastive Multiview Coding)</h4><p><em>Constrastive Multiview Coding</em></p>
+<p>较早开始利用多视角进行对比学习的工作</p>
+<p>一个物体的很多个视角，都可以被当作正样本。</p>
+<p>作者从这种观察出发，想要学习一种带有视角不变性的表征。所以本篇工作的目的就是为了最大化不同视角之间的互信息(mutual information)。</p>
+<img src="image-20220718115323944.png" alt="image-20220718115323944" style="zoom: 67%;" />
+
+<p>选用的数据集是 NYU RGBD，这个数据集同时有4个view</p>
+<p>一个场景的多个view互为正样本，其他的就是负样本。</p>
+<p>有一个局限性是处理不同模态时，可能需要不同的编码器，训练代价会比较高。这也是transformer的一个好处，它有可能可以同时处理多个模态的数据。</p>
+<h2 id="CV双雄"><a href="#CV双雄" class="headerlink" title="CV双雄"></a>CV双雄</h2><h4 id="Moco"><a href="#Moco" class="headerlink" title="Moco"></a>Moco</h4><p><em>Momentum Contrast for Unsupervised Visual Representation Learning</em></p>
+<p>把之前的一些对比学习的方法都归纳总结成了一个字典查询的问题，提出了队列和动量编码器来形成一个大的字典，同时使用动量的方式来更新编码器而不是更新向量特征，从而取得了很好的效果。</p>
+<img src="image-20220718135147373.png" alt="image-20220718135147373" style="zoom: 67%;" />
+
+<h4 id="SimCLR"><a href="#SimCLR" class="headerlink" title="SimCLR"></a>SimCLR</h4><p><em>A Simple Framework for Contrastive Learning of Visual Representations</em></p>
+<img src="image-20220718135331990.png" alt="image-20220718135331990" style="zoom: 67%;" />
+
+<p>对mini-batch里面的图片$x$做不同的数据增强，同一个图片得到的图片就是正样本，负样本就是剩下的样本及其增广，</p>
+<p>主要创新点，在编码器得到的特征之后，加入了一个投射层（一个mlp），分类任务提升很大</p>
+<p>同时需要注意的是，投射函数$g$只在使用对比学习进行训练的时候才使用，在用模型得到的特征去做下游任务时，还是只用$h$.</p>
+<p>这一篇工作使用了很多的数据增强技术，可以参考。</p>
+<img src="image-20220718135916213.png" alt="image-20220718135916213" style="zoom: 67%;" />
+
+<img src="image-20220718140030513.png" alt="image-20220718140030513" style="zoom:50%;" />
+
+<h4 id="MoCo-v2"><a href="#MoCo-v2" class="headerlink" title="MoCo v2"></a>MoCo v2</h4><p><em>Improved Baselines with Momentum Contrastive Learning</em></p>
+<p>主要是把SimCLR里面很多即插即用的模块拿到了MoCo里面，取得了很好的效果</p>
+<img src="image-20220718140420999.png" alt="image-20220718140420999" style="zoom:50%;" />
+
+<h4 id="SimCLR-v2"><a href="#SimCLR-v2" class="headerlink" title="SimCLR v2"></a>SimCLR v2</h4><p><em>Big Self-Supervised Models are Strong Semi-Supervised Learners</em></p>
+<p>其实主要想说的是，这些自监督训练出来的大模型，非常适合用来做半监督的学习。</p>
+<h4 id="SwAV"><a href="#SwAV" class="headerlink" title="SwAV"></a>SwAV</h4><p><em>Unsupervised Learning of Visual Features by Constrasting Cluster Assignments</em></p>
+<p>聚类相关的文章可以先去看deep cluster和deep cluster 2</p>
+<p>给定同样一张图片，如果去生成不同的视角，希望可以通过一个视角得到的特征去预测另外一个视角得到的特征。</p>
+<p>具体做法是把对比学习和聚类的方法结合到了一起。 </p>
+<img src="image-20220718141421432.png" alt="image-20220718141421432" style="zoom:50%;" />
+
+<p>主要想法是，之前的对比学习工作（左图），都是要跟其余所有的负样本（或者是mini-batch里的其余样本）得到的原始特征进行对比，比较原始而且浪费资源。本文作者想通过对比聚类簇的中心，达到对比学习的效果。</p>
+<img src="image-20220718141659728.png" alt="image-20220718141659728" style="zoom: 50%;" />
+
+<p>k是聚类中心的个数，D是特征的维度</p>
+<p>代理任务也变成了换位预测（swap prediction），即通过聚类中心$c$，$c\cdot z_1&#x3D;Q_1$作为ground truth，如果$z_1,z_2$足够相似，那么通过$c\cdot z_2$得到的结果应该与$Q_1$很相似，以此实现了换位预测的任务。</p>
+<p>用聚类的好处：</p>
+<ol>
+<li>减少了负样本的数量</li>
+<li>聚类中心有明确的语义含义，而之前的负样本只是近似</li>
+</ol>
+<p>同时本文也提出了一个trick，multi-crop</p>
+<img src="image-20220718143003002.png" alt="image-20220718143003002" style="zoom:50%;" />
+
+<p>之前的crop(左图)，是crop两个，由于有比较大的重叠，所以互为正样本，但是本文作者认为，这么大的crop，学习到的显然是全局的场景特征，如果想要关注一些更细节的场景，就需要更小的crop，但同时又不能增加太多的计算复杂度，所以提出了右边的multi-crop。2x224 -&gt; 2x160+4x96</p>
+<h2 id="不用负样本"><a href="#不用负样本" class="headerlink" title="不用负样本"></a>不用负样本</h2><h4 id="BYOL"><a href="#BYOL" class="headerlink" title="BYOL"></a>BYOL</h4><p><em>Bootstrap Your Own Latent A New Approach to Self-Supervised Learning</em></p>
+<p>完全没有用任何形式的负样本，因为之前的负样本其实是一个约束，防止模型直接全出0的捷径解躺平。</p>
+<img src="image-20220718143720000.png" alt="image-20220718143720000" style="zoom:50%;" />
+
+<p>上下两支的编码器，投影层的结构都相同，但是参数不一样。同时上支的编码器$f_{\theta}$是通过梯度更新的，下面的是使用了动量编码器。在得到了两个特征z之后，之前的工作都是让这两个特征尽可能的靠近，是一个配对任务，而BYOL则是在上支又加了一个mlp做预测，变成了一个预测任务。</p>
+<p>虽然SwAV也是类似的思路，但是它使用了聚类中心作为辅助，而BYOL则是没有这些辅助。</p>
+<p>目标函数直接用的mse loss。跟之前对比学习大多数的info NCE loss不同。</p>
+<p>同时有人在复现工作的时候发现，mlp中BN层的设置对模型能不能正常训练，影响很大</p>
+<img src="image-20220718144447212.png" alt="image-20220718144447212" style="zoom:50%;" />
+
+<p>复现工作的人发博客给出了一种解释是，增加了BN之后，其实多了一个任务是用正样本去跟平均样本比较，就和SwAV的聚类中心很像了。</p>
+<p>（然后原作者马上回了一篇论文）</p>
+<p><em>BYOL works even without batch statistics</em></p>
+<img src="image-20220718145049976.png" alt="image-20220718145049976" style="zoom:50%;" />
+
+<p>最终达成的一致结论是：如果一开始模型的初始化就比较好，那么后面不用归一化也没有问题，BN主要作用是提高模型训练的稳定性。所以如果使用了很好的初始化方式，后面的归一化操作只是会让模型训练更稳定。</p>
+<h4 id="SimSiam"><a href="#SimSiam" class="headerlink" title="SimSiam"></a>SimSiam</h4><p><em>Exploring Simple Siamese Representation Learning</em></p>
+<p>simple siamese networks</p>
+ <img src="image-20220718145532998.png" alt="image-20220718145532998" style="zoom:50%;" />
+
+<p>不需要负样本，不需要大batch size，不需要动量编码器</p>
+<p>得出的结论是，SimSiam包括BYOL不会模型坍塌的主要原因就是又stop-grad这个操作，可以归结到EM算法(Expectation-Maximization)来解释</p>
+<h2 id="Transformer"><a href="#Transformer" class="headerlink" title="Transformer"></a>Transformer</h2><h4 id="MoCo-v3"><a href="#MoCo-v3" class="headerlink" title="MoCo v3"></a>MoCo v3</h4><p><em>An Empirical Study of Training Self-Supervised Vision Transformers</em></p>
+<p>相当于MoCo v2和SimSiam的一个合体</p>
+<p>主要贡献是提出了让ViT做自监督训练更加稳定的trick</p>
+<p>第一个trick是冻住了ViT的第一步达成patch的投影层，从而使得ViT的训练变的稳定</p>
+<h4 id="DINO"><a href="#DINO" class="headerlink" title="DINO"></a>DINO</h4><p><em>Emerging Preperties in Self-Supervised Vision Transformers</em></p>
+<img src="image-20220718151549449.png" alt="image-20220718151549449" style="zoom:50%;" />
+
+<p>延续了BYOL</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="https://github.com/riverback">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%99%BE%E8%8A%B1%E9%BD%90%E6%94%BE"><span class="toc-number">1.</span> <span class="toc-text">百花齐放</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#InstDisc"><span class="toc-number">1.0.1.</span> <span class="toc-text">InstDisc</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#InvaSpread"><span class="toc-number">1.0.2.</span> <span class="toc-text">InvaSpread</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#CPC-Constrastive-Predictive-Coding"><span class="toc-number">1.0.3.</span> <span class="toc-text">CPC(Constrastive Predictive Coding)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#CMC-Constrastive-Multiview-Coding"><span class="toc-number">1.0.4.</span> <span class="toc-text">CMC(Constrastive Multiview Coding)</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CV%E5%8F%8C%E9%9B%84"><span class="toc-number">2.</span> <span class="toc-text">CV双雄</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Moco"><span class="toc-number">2.0.1.</span> <span class="toc-text">Moco</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#SimCLR"><span class="toc-number">2.0.2.</span> <span class="toc-text">SimCLR</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#MoCo-v2"><span class="toc-number">2.0.3.</span> <span class="toc-text">MoCo v2</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#SimCLR-v2"><span class="toc-number">2.0.4.</span> <span class="toc-text">SimCLR v2</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#SwAV"><span class="toc-number">2.0.5.</span> <span class="toc-text">SwAV</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8D%E7%94%A8%E8%B4%9F%E6%A0%B7%E6%9C%AC"><span class="toc-number">3.</span> <span class="toc-text">不用负样本</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#BYOL"><span class="toc-number">3.0.1.</span> <span class="toc-text">BYOL</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#SimSiam"><span class="toc-number">3.0.2.</span> <span class="toc-text">SimSiam</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Transformer"><span class="toc-number">4.</span> <span class="toc-text">Transformer</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#MoCo-v3"><span class="toc-number">4.0.1.</span> <span class="toc-text">MoCo v3</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#DINO"><span class="toc-number">4.0.2.</span> <span class="toc-text">DINO</span></a></li></ol></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&text=对比学习串烧"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&title=对比学习串烧"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&is_video=false&description=对比学习串烧"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=对比学习串烧&body=Check out this article: http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&title=对比学习串烧"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&title=对比学习串烧"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&title=对比学习串烧"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&title=对比学习串烧"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&name=对比学习串烧&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/2022/07/19/DeepLearning/ConstrastiveLearning/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0%E4%B8%B2%E7%83%A7/&t=对比学习串烧"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2022
+    Hangzhou He
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="https://github.com/riverback">Projects</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>

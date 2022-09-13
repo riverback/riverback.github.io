@@ -7,5 +7,3 @@ date: 2022-08-16 15:12:31
 
 🥰 [Zeming Wei](http://weizeming.com/)
 
-🌙 [Y's night talk](https://nightlytalk.com/)
-

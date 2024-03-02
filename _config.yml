@@ -21,7 +21,7 @@ repository               : "riverback/riverback.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Hangzhou He"
   pronouns         : # example: "she/her"  
   bio              : "undergraduate student at Peking University~"

@@ -1,5 +1,5 @@
 ---
-title: "Branches Mutual Promotion for End-to-End Weakly Supervised Semantic Segmentation"
+title: "Branches Mutual Promotion for End-to-End Weakly Supervised Semantic Segmentation (Arxiv)"
 collection: publications
 permalink: /publication/2023-08-09-paper-Branches-Mutual-Promotion-for-End-to-End-Weakly-Supervised-Semantic-Segmentation
 excerpt: 'This paper is about using the feedback from the segmentation branch to guide the classification branch, and vice versa, to improve the performance of End-to-End weakly supervised semantic segmentation.'

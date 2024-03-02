@@ -2,7 +2,7 @@
 title: "Scribble Hides Class: Promoting Scribble-based Weakly-supervised Semantic Segmentation with Its Class Label (AAAI 2024)"
 collection: publications
 permalink: /publication/2024-02-27-paper-Scribble-Hides-Class
-excerpt: 'This paper is about using the class information to promote the performance of scribble-based weakly-supervised semantic segmentation.'
+excerpt: 'Scribble-based weakly-supervised semantic segmentation.'
 date: 2024-02-27
 venue: 'AAAI'
 paperurl: 'https://arxiv.org/abs/2402.17555'

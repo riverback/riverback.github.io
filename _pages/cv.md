@@ -11,35 +11,19 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 2020.9-2024.7 (expected), B.S. Major in Theoretical and Applied Mechanics, Peking University
+* 2020.9-2024.7 (expected), B.S. Minor in Biomedical Engineering, Peking University
+* 2024.9-2029.7 (expected), Ph.D. in Biomedical Engineering, Peking University
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Summer 2023: Internship
+  * Uinted Imaging Intelligence, RIID
+  * Duties included: Large language models for medical image analysis and structured reports
+  * Supervisor: Dr. Pei Dong
+* 2021.10-now: Research Assistant
+  * Molecular Imaging / Medical Intelligence Lab (MILAB), Peking University
+  * Supervisor: Assoc. Prof. Dr. Yanye Lu, Prof. Dr. Qiushi Ren
 
 Publications
 ======
@@ -47,18 +31,17 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Honors and Awards
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* 2022-2023 **Award for Academic Excellents**, Peking University
+* 2023 **Outstanding Project Award for undergraduate research training**, Peking University
+
+Projects
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+* PyTorch Attribution Toolbox
+  * Attribution methods that explain image classification models, implemented in PyTorch, and support batch input and GPU.
+  * [Github](https://github.com/riverback/pytorch_attribution)
+
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* 2021.9-2023.9 The captain of the table tennis team of the College of Engineering, Peking University

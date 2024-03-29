@@ -43,7 +43,7 @@ Projects
   * Attribution methods that explain image classification models, implemented in PyTorch, and support batch input and GPU.
   * [Github](https://github.com/riverback/pytorch_attribution)
   
-  [image](https://riverback.github.io/images/pytorch_attribution.png)
+  ![image](https://riverback.github.io/images/pytorch_attribution.png)
 
 Service and leadership
 ======

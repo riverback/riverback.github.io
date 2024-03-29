@@ -13,7 +13,8 @@ Education
 ======
 * 2020.9-2024.7 (expected), B.S. Major in Theoretical and Applied Mechanics, Peking University
 * 2020.9-2024.7 (expected), B.S. Minor in Biomedical Engineering, Peking University
-* 2024.9-2029.7 (expected), Ph.D. in Biomedical Engineering, Peking University
+
+I will be pursuing a doctoral degree in Molecular Imaging / Medical Intelligence Lab (MILAB) at Peking University starting from September 2024, under the supervision of Assoc. Prof. Dr. Yanye Lu and Prof. Dr. Qiushi Ren.
 
 Work experience
 ======
@@ -41,6 +42,8 @@ Projects
 * PyTorch Attribution Toolbox
   * Attribution methods that explain image classification models, implemented in PyTorch, and support batch input and GPU.
   * [Github](https://github.com/riverback/pytorch_attribution)
+  
+  [image](https://riverback.github.io/images/pytorch_attribution.png)
 
 Service and leadership
 ======

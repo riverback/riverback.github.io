@@ -21,10 +21,10 @@ Work experience
 * Summer 2023: Internship
   * Uinted Imaging Intelligence, RIID
   * Duties included: Large language models for medical image analysis and structured reports
-  * Supervisor: Dr. Pei Dong
-* 2021.10-now: Research Assistant
-  * Molecular Imaging / Medical Intelligence Lab (MILAB), Peking University
-  * Supervisor: Assoc. Prof. Dr. Yanye Lu, Prof. Dr. Qiushi Ren
+  * Supervisor: Dr. [Pei Dong](https://bme.shanghaitech.edu.cn/2021/0205/c10250a89895/page.htm)
+* 2021.10-now: Undergraduate Research Assistant
+  * Molecular Imaging / Medical Intelligence Lab ([MILAB](https://zifengtian.gitee.io/)), Peking University
+  * Supervisor: Assoc. Prof. Dr. [Yanye Lu](https://nbic.pku.edu.cn/rcdw/kyry/b33cd89d98fb414681de8b103b36a198.htm), Prof. Dr. [Qiushi Ren](https://nbic.pku.edu.cn/rcdw/kyry/4542776e5d0b4a9086c79f376919e36e.htm)
 
 Publications
 ======

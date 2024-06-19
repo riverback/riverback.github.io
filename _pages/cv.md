@@ -34,8 +34,12 @@ Publications
   
 Honors and Awards
 ======
-* 2022-2023 **Award for Academic Excellents**, Peking University
-* 2023 **Outstanding Project Award for undergraduate research training**, Peking University
+* 2024.6 *Excellent Graduate*, Peking University
+* 2024.6 *PKU·DeDao Grand Challenges Scholar*, Peking University, the Grand Challenges Scholars Program (GCSP)
+* 2024.6 *Third Prize of the 32nd Challenge Cup*, Peking University
+* 2024.3 *Outstanding Project Award for undergraduate research training*, Peking University
+* 2023.12 *Award for Academic Excellents*, Peking University
+* 2023.11 *Outstanding Project Award for undergraduate research training*, College of Engineering, Peking University
 
 Projects
 ======

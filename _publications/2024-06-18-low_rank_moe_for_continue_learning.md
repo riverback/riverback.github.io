@@ -4,9 +4,9 @@ collection: publications
 permalink: /publication/2024-06-18-low_rank_moe_for_continue_learning
 excerpt: 'Low-rank mixture-of-experts for continual medical image segmentation.'
 date: 2024-06-18
-venue: 'MICCAI2024'
+venue: 'MICCAI'
 paperurl: 'https://arxiv.org/abs/2406.13583'
-#citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+citation: Chen, Qian and Zhu, Lei and **He, Hangzhou** and Zhang, Xinliang and Zeng, Shuang and Ren, Qiushi and Lu, Yanye
 ---
 
 [Download paper here](https://arxiv.org/abs/2406.13583)

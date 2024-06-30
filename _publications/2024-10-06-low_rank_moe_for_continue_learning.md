@@ -1,9 +1,9 @@
 ---
 title: "Low-Rank Mixture-of-Experts for Continual Medical Image Segmentation (MICCAI 2024)"
 collection: publications
-permalink: /publication/2024-06-18-low_rank_moe_for_continue_learning
+permalink: /publication/2024-10-06-low_rank_moe_for_continue_learning
 excerpt: 'Low-rank mixture-of-experts for continual medical image segmentation.'
-date: 2024-06-18
+date: 2024-10-06
 venue: 'MICCAI'
 paperurl: 'https://arxiv.org/abs/2406.13583'
 #citation: Chen, Qian and Zhu, Lei and **He, Hangzhou** and Zhang, Xinliang and Zeng, Shuang and Ren, Qiushi and Lu, Yanye

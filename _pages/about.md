@@ -37,7 +37,7 @@ Lei Zhu, **Hangzhou He**, Xinliang Zhang, Qian Chen, Shuang Zeng, Qiushi Ren, Ya
 
 ## Projects
 - **PyTorch Attribution Toolbox**\\
-  Attribution methods that explain image classification models, implemented in PyTorch, and support batch input and GPU.\\
+  Attribution methods for explaining image classification models.\\
   [[Github](https://github.com/riverback/pytorch_attribution)]\\
   ![image](https://riverback.github.io/images/pytorch_attribution.png)
 

@@ -11,7 +11,7 @@ locale                   : "BeiJing, China"
 title                    : "Hangzhou He's Homepage"
 title_separator          : "-"
 name                     : &name "Hangzhou He"
-description              : &description "undergraduate student at Peking University"
+description              : &description "first-year Ph.D. student at Peking University"
 url                      : https://riverback.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "riverback/riverback.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Hangzhou He"
   pronouns         : # example: "she/her"  
-  bio              : "undergraduate student at Peking University~"
+  bio              : "first-year Ph.D. student at Peking University"
   location         : Beijing, China
   employer         : "Peking University"
   uri              : # URL

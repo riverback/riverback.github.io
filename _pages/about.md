@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>), a Ph.D. student at College of Future Technology, Peking University. I work at Molecular Imaging / Medical Intelligence Lab (MILAB) at Peking University, under the supervision of Prof. Dr. Qiushi Ren and Assoc. Prof. Dr. Yanye Lu.
+Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>), a Ph.D. student at College of Future Technology, Peking University. I work at Molecular Imaging / Medical Intelligence Lab ([MILAB](https://wiki.milab.wiki/)) at Peking University, under the supervision of Prof. Dr. Qiushi Ren and Assoc. Prof. Dr. Yanye Lu.
 
 My research interests include deep learning, computer vision and medical image analysis, especially in explainable and robust AI. I am also passionate about leveraging these technologies for artistic creation ;-).
 
@@ -17,7 +17,7 @@ My research interests include deep learning, computer vision and medical image a
 - **Low-Rank Mixture-of-Experts for Continual Medical Image Segmentation**\\
 Qian Chen, Lei Zhu, **Hangzhou He**, Xinliang Zhang, Shuang Zeng, Qiushi Ren, Yanye Lu\*\\
 **_MICCAI 2024_**\\
-[[pdf](https://arxiv.org/pdf/2406.13583)] [[arxiv](https://arxiv.org/abs/2406.13583)] [[code]]
+[[pdf](https://arxiv.org/pdf/2406.13583)] [[arxiv](https://arxiv.org/abs/2406.13583)] [code]
 
 - **On the Duality Between Sharpness-Aware Minimization and Adversarial Training**\\
 Yihao Zhang\#, **Hangzhou He**\#, Jingyu Zhu\#, Huanran Chen, Yifei Wang, Zeming Wei\*\\
@@ -32,7 +32,7 @@ Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
 - **Branches Mutual Promotion for End-to-End Weakly Supervised Semantic Segmentation**\\
 Lei Zhu, **Hangzhou He**, Xinliang Zhang, Qian Chen, Shuang Zeng, Qiushi Ren, Yanye Lu\*\\
 **_Preprint_**\\
-[[pdf](https://arxiv.org/pdf/2308.04949)] [[arxiv](https://arxiv.org/abs/2308.04949)] [[code]]
+[[pdf](https://arxiv.org/pdf/2308.04949)] [[arxiv](https://arxiv.org/abs/2308.04949)] [code]
 
 
 ## Projects
@@ -44,6 +44,7 @@ Lei Zhu, **Hangzhou He**, Xinliang Zhang, Qian Chen, Shuang Zeng, Qiushi Ren, Ya
 ## Honors and Awards
 - **Dean's scholarship**, College of Future Technology, Peking University, *2024*
 - **Excellent Graduate**, Peking University, *2024*
+- **Honours Degrees**, College of Engineering, Peking University, *2024*
 - **PKU·DeDao Grand Challenges Scholar**, Peking University, the Grand Challenges Scholars Program (GCSP), *2024*
 - **Third Prize of the 32nd Challenge Cup**, Peking University, *2024*
 - **Outstanding Project Award for undergraduate research training**, Peking University, *2024*

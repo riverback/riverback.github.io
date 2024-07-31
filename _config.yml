@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "BeiJing, China"
-title                    : "Hangzhou He's Homepage"
+title                    : "Hangzhou He (何航舟) Homepage"
 title_separator          : "-"
 name                     : &name "Hangzhou He"
 description              : &description "first-year Ph.D. student at Peking University"

@@ -7,10 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>), a Ph.D. student at College of Future Technology, Peking University. I work at Molecular Imaging / Medical Intelligence Lab ([MILAB](https://wiki.milab.wiki/)) at Peking University, under the supervision of Prof. Dr. Qiushi Ren and Assoc. Prof. Dr. Yanye Lu.
+Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>), a Ph.D. student at College of Future Technology, Peking University. I work at Molecular Imaging / Medical Intelligence Lab ([MILAB](https://wiki.milab.wiki/)) at Peking University, under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=WSFToOMAAAAJ) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=7cOdUFgAAAAJ).
 
-My research interests include deep learning, computer vision and medical image analysis, especially in explainable and robust AI. I am also passionate about leveraging these technologies for artistic creation ;-).
-
+My research interests focus on the trustworthiness of deep learning models, including explainability, generalization and their applications in medical image analysis. I am also passionate about leveraging AI for artistic creation ;-). You can find me on [Google Scholar](https://scholar.google.com/citations?user=Q6Z6Z6oAAAAJ&hl=zh-CN), [Github](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=IVvW2kMAAAAJ), or contact me via [Email](mailto:zhuang@stu.pku.edu.cn).
 
 ## Publications
 ### (\#: Equal Contribution; \*: Corresponding Author)
@@ -45,7 +44,7 @@ Lei Zhu, **Hangzhou He**, Xinliang Zhang, Qian Chen, Shuang Zeng, Qiushi Ren, Ya
 - **Dean's scholarship**, College of Future Technology, Peking University, *2024*
 - **Excellent Graduate**, Peking University, *2024*
 - **Honours Degrees**, College of Engineering, Peking University, *2024*
-- **PKU·DeDao Grand Challenges Scholar**, Peking University, the Grand Challenges Scholars Program (GCSP), *2024*
+- **Grand Challenges Scholar**, the Grand Challenges Scholars Program (GCSP), *2024*
 - **Third Prize of the 32nd Challenge Cup**, Peking University, *2024*
 - **Outstanding Project Award for undergraduate research training**, Peking University, *2024*
 - **Award for Academic Excellents**, Peking University, *2023*
@@ -65,4 +64,5 @@ Lei Zhu, **Hangzhou He**, Xinliang Zhang, Qian Chen, Shuang Zeng, Qiushi Ren, Ya
 
 
 ## 🔗 Links
-- **Advisors**: [Qiushi Ren](https://nbic.pku.edu.cn/en/Faculty/Researchers/ce93877dcb664b28a48234b4ab8f684d.htm), [Yanye Lu](https://nbic.pku.edu.cn/en/Faculty/Researchers/0a96455fce164e508fbe96162ef92f79.htm)
+- **Advisors**: [Yanye Lu](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=WSFToOMAAAAJ), [Qiushi Ren](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=7cOdUFgAAAAJ)
+- **Others**: [MILAB](https://wiki.milab.wiki/), [College of Future Technology](https://future.pku.edu.cn/en/)

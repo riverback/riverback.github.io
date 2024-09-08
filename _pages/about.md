@@ -9,7 +9,7 @@ redirect_from:
 
 Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>), a Ph.D. student at College of Future Technology, Peking University. I work at Molecular Imaging / Medical Intelligence Lab ([MILAB](https://wiki.milab.wiki/)) at Peking University, under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=WSFToOMAAAAJ) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=7cOdUFgAAAAJ).
 
-My research interests focus on the trustworthiness of deep learning models, including explainability, generalization and their applications in medical image analysis. I am also passionate about leveraging AI for artistic creation ;-). You can find me on [Google Scholar](https://scholar.google.com/citations?user=Q6Z6Z6oAAAAJ&hl=zh-CN), [Github](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=IVvW2kMAAAAJ), or contact me via [Email](mailto:zhuang@stu.pku.edu.cn).
+My research interests focus on the trustworthiness of deep learning models, including explainability, generalization and their applications in medical image analysis. I am also passionate about leveraging AI for artistic creation ;-). You can find me on [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=IVvW2kMAAAAJ), [Github](https://github.com/riverback), or contact me via [Email](mailto:zhuang@stu.pku.edu.cn).
 
 ## Publications
 ### (\#: Equal Contribution; \*: Corresponding Author)

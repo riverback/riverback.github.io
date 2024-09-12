@@ -13,6 +13,11 @@ My research interests focus on the trustworthiness of deep learning models, incl
 
 ## Publications
 ### (\#: Equal Contribution; \*: Corresponding Author)
+- **Branches Mutual Promotion for End-to-End Weakly Supervised Semantic Segmentation**\\
+Lei Zhu, Xinliang Zhang, **Hangzhou He**, Qian Chen, Sha Li, Shuang Zeng, Yibao Zhang, Qiushi Ren, Yanye Lu\*\\
+**_TNNLS_**\\
+[[pdf](https://arxiv.org/pdf/2308.04949)] [[arxiv](https://arxiv.org/abs/2308.04949)] [code]
+
 - **Low-Rank Mixture-of-Experts for Continual Medical Image Segmentation**\\
 Qian Chen, Lei Zhu, **Hangzhou He**, Xinliang Zhang, Shuang Zeng, Qiushi Ren, Yanye Lu\*\\
 **_MICCAI 2024_**\\
@@ -27,11 +32,6 @@ Yihao Zhang\#, **Hangzhou He**\#, Jingyu Zhu\#, Huanran Chen, Yifei Wang, Zeming
 Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
 **_AAAI 2024_**\\
 [[pdf](https://arxiv.org/pdf/2402.17555)] [[arxiv](https://arxiv.org/abs/2402.17555)] [[code](https://github.com/Zxl19990529/Class-driven-Scribble-Promotion-Network)]
-
-- **Branches Mutual Promotion for End-to-End Weakly Supervised Semantic Segmentation**\\
-Lei Zhu, Xinliang Zhang, **Hangzhou He**, Qian Chen, Sha Li, Shuang Zeng, Yibao Zhang, Qiushi Ren, Yanye Lu\*\\
-**_TNNLS_**\\
-[[pdf](https://arxiv.org/pdf/2308.04949)] [[arxiv](https://arxiv.org/abs/2308.04949)] [code]
 
 
 ## Projects

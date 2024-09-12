@@ -29,8 +29,8 @@ Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
 [[pdf](https://arxiv.org/pdf/2402.17555)] [[arxiv](https://arxiv.org/abs/2402.17555)] [[code](https://github.com/Zxl19990529/Class-driven-Scribble-Promotion-Network)]
 
 - **Branches Mutual Promotion for End-to-End Weakly Supervised Semantic Segmentation**\\
-Lei Zhu, **Hangzhou He**, Xinliang Zhang, Qian Chen, Shuang Zeng, Qiushi Ren, Yanye Lu\*\\
-**_Preprint_**\\
+Lei Zhu, Xinliang Zhang, **Hangzhou He**, Qian Chen, Sha Li, Shuang Zeng, Yibao Zhang, Qiushi Ren, Yanye Lu\*\\
+**_TNNLS_**\\
 [[pdf](https://arxiv.org/pdf/2308.04949)] [[arxiv](https://arxiv.org/abs/2308.04949)] [code]
 
 

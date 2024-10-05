@@ -13,9 +13,14 @@ My research interests focus on the trustworthiness of deep learning models, incl
 
 ## Publications
 ### (\#: Equal Contribution; \*: Corresponding Author)
+- **Generative learning-based lightweight MRI brain tumor segmentation with missing modalities**\\
+Xinliang Zhang, Qian Chen, **Hangzhou He**, Lei Zhu, Zhaoheng Xie, Yanye Lu\*, Fangxiao Cheng\*\\
+**_Expert Systems with Applications_**\\
+[[pdf](https://doi.org/10.1016/j.eswa.2024.125478)] [[doi](https://doi.org/10.1016/j.eswa.2024.125478)] [code]
+
 - **Branches Mutual Promotion for End-to-End Weakly Supervised Semantic Segmentation**\\
 Lei Zhu, Xinliang Zhang, **Hangzhou He**, Qian Chen, Sha Li, Shuang Zeng, Yibao Zhang, Qiushi Ren, Yanye Lu\*\\
-**_TNNLS_**\\
+**_IEEE Transactions on Neural Networks and Learning Systems_**\\
 [[pdf](https://arxiv.org/pdf/2308.04949)] [[arxiv](https://arxiv.org/abs/2308.04949)] [code]
 
 - **Low-Rank Mixture-of-Experts for Continual Medical Image Segmentation**\\

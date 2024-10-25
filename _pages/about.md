@@ -11,6 +11,8 @@ Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>), a Ph.D. student at Co
 
 My research interests focus on the trustworthiness of deep learning models, including explainability, generalization and their applications in medical image analysis. I am also passionate about leveraging AI for artistic creation ;-). You can find me on [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=IVvW2kMAAAAJ), [Github](https://github.com/riverback), or contact me via [Email](mailto:zhuang@stu.pku.edu.cn).
 
+Currently, I am working on the intersection of concept bottleneck models and large (vision-) language models, if you're interested in these topics, I would appreciate it if you could reach out to me for a chat or collaboration.
+
 ## Publications
 ### (\#: Equal Contribution; \*: Corresponding Author)
 - **Generative learning-based lightweight MRI brain tumor segmentation with missing modalities**\\

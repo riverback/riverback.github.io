@@ -15,6 +15,11 @@ Currently, I am working on the intersection of concept bottleneck models and lar
 
 ## Publications
 ### (\#: Equal Contribution; \*: Corresponding Author)
+- **V2C-CBM: Building Concept Bottlenecks with Vision-to-Concept Tokenizer**\\
+**Hangzhou He**, Lei Zhu, Xinliang Zhang, Shuang Zeng, Qian Chen, Yanye Lu\*\\
+**_AAAI 2025_**\\
+[[pdf]()] [[doi]()] [[code]()]
+
 - **Generative learning-based lightweight MRI brain tumor segmentation with missing modalities**\\
 Xinliang Zhang, Qian Chen, **Hangzhou He**, Lei Zhu, Zhaoheng Xie, Yanye Lu\*, Fangxiao Cheng\*\\
 **_Expert Systems with Applications_**\\

@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>), a Ph.D. student at College of Future Technology, Peking University. I work at Molecular Imaging / Medical Intelligence Lab ([MILAB](https://wiki.milab.wiki/)) at Peking University, under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=WSFToOMAAAAJ) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=7cOdUFgAAAAJ).
+Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>), a Ph.D. student at College of Future Technology, Peking University. I work at Medical Intelligence / Molecular Imaging  Lab ([MILAB](https://wiki.milab.wiki/)) at Peking University, under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=WSFToOMAAAAJ) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=7cOdUFgAAAAJ).
 
 My research interests focus on the trustworthiness of deep learning models, including explainability, generalization and their applications in medical image analysis. I am also passionate about leveraging AI for artistic creation ;-). You can find me on [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=IVvW2kMAAAAJ), [Github](https://github.com/riverback), or contact me via [Email](mailto:zhuang@stu.pku.edu.cn).
 
@@ -28,7 +28,7 @@ Xinliang Zhang, Qian Chen, **Hangzhou He**, Lei Zhu, Zhaoheng Xie, Yanye Lu\*, F
 - **Branches Mutual Promotion for End-to-End Weakly Supervised Semantic Segmentation**\\
 Lei Zhu, Xinliang Zhang, **Hangzhou He**, Qian Chen, Sha Li, Shuang Zeng, Yibao Zhang, Qiushi Ren, Yanye Lu\*\\
 **_IEEE Transactions on Neural Networks and Learning Systems_**\\
-[[pdf](https://arxiv.org/pdf/2308.04949)] [[arxiv](https://arxiv.org/abs/2308.04949)] [code]
+[[pdf](https://arxiv.org/pdf/2308.04949)] [[arxiv](https://arxiv.org/abs/2308.04949)] [[code](https://github.com/zh460045050/BMP-WSSS)]
 
 - **Low-Rank Mixture-of-Experts for Continual Medical Image Segmentation**\\
 Qian Chen, Lei Zhu, **Hangzhou He**, Xinliang Zhang, Shuang Zeng, Qiushi Ren, Yanye Lu\*\\
@@ -53,6 +53,7 @@ Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
   ![image](https://riverback.github.io/images/pytorch_attribution.png)
 
 ## Honors and Awards
+- **AAAI-25 Student Scholarship**, AAAI, *2025*
 - **Dean's scholarship**, College of Future Technology, Peking University, *2024*
 - **Excellent Graduate**, Peking University, *2024*
 - **Honours Degrees**, College of Engineering, Peking University, *2024*
@@ -64,7 +65,7 @@ Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
 
 
 ## Educations
-- *2024.09 - Present*, Ph.D. candidate in Biomedical Engineering, College of Future Technology, Peking University
+- *2024.09 - Present*, Ph.D. student in Biomedical Engineering, College of Future Technology, Peking University
 - *2020.09 - 2024.07*, B.S. major in Theoretical and Applied Mechanics, College of Engineering, Peking University
 - *2020.09 - 2024.07*, B.S. minor in Biomedical Engineering, College of Engineering, Peking University
 
@@ -75,7 +76,8 @@ Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
   - Supervisor: Dr. [Pei Dong](https://bme.shanghaitech.edu.cn/2021/0205/c10250a89895/page.htm)
 
 ## Services
-Conference Reviewer: ICLR2025
+- Conference Reviewer: ICLR2025
+- Conference Volunteer: AAAI2025
 
 ## 🔗 Links
 - **Advisors**: [Yanye Lu](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=WSFToOMAAAAJ), [Qiushi Ren](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=7cOdUFgAAAAJ)

@@ -7,18 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>), a Ph.D. student at College of Future Technology, Peking University. I work at Medical Intelligence / Molecular Imaging  Lab ([MILAB](https://wiki.milab.wiki/)) at Peking University, under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=WSFToOMAAAAJ) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=7cOdUFgAAAAJ).
+Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>), a Ph.D. student at College of Future Technology, Peking University. I work at Medical Intelligence Lab ([MILAB](https://wiki.milab.wiki/)) at Peking University, under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=WSFToOMAAAAJ) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=7cOdUFgAAAAJ).
 
-My research interests focus on the trustworthiness of deep learning models, including explainability, generalization and their applications in medical image analysis. I am also passionate about leveraging AI for artistic creation ;-). You can find me on [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=IVvW2kMAAAAJ), [Github](https://github.com/riverback), or contact me via [Email](mailto:zhuang@stu.pku.edu.cn).
-
-Currently, I am working on the intersection of concept bottleneck models and large (vision-) language models, if you're interested in these topics, I would appreciate it if you could reach out to me for a chat or collaboration.
+My research interests focus on the trustworthiness of deep learning models, including explainability, generalization and their applications in medical image analysis. I am also passionate about leveraging AI for artistic creation ;-). Currently, I am working on the intersection of concept bottleneck models and large (vision-) language models, if you're interested in these topics, I would appreciate it if you could reach out to me for a chat or collaboration.
 
 ## Publications
 ### (\#: Equal Contribution; \*: Corresponding Author)
 - **V2C-CBM: Building Concept Bottlenecks with Vision-to-Concept Tokenizer**\\
 **Hangzhou He**, Lei Zhu, Xinliang Zhang, Shuang Zeng, Qian Chen, Yanye Lu\*\\
 **_AAAI 2025_**\\
-[[pdf]()] [[doi]()] [[code]()]
+[[pdf](https://arxiv.org/abs/2501.04975)] [[doi]()] [[code](https://github.com/riverback/V2C-CBM)]
 
 - **Generative learning-based lightweight MRI brain tumor segmentation with missing modalities**\\
 Xinliang Zhang, Qian Chen, **Hangzhou He**, Lei Zhu, Zhaoheng Xie, Yanye Lu\*, Fangxiao Cheng\*\\

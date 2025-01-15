@@ -43,6 +43,12 @@ Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
 **_AAAI 2024_**\\
 [[pdf](https://arxiv.org/pdf/2402.17555)] [[arxiv](https://arxiv.org/abs/2402.17555)] [[code](https://github.com/Zxl19990529/Class-driven-Scribble-Promotion-Network)]
 
+## Projects
+- **PyTorch Attribution Toolbox**\\
+  Feature attribution methods for explaining image classification models.\\
+  [[Github](https://github.com/riverback/pytorch_attribution)]\\
+  ![image](https://riverback.github.io/images/pytorch_attribution.png)
+
 ## Honors and Awards
 - **AAAI-25 Student Scholarship**, AAAI, *2025*
 - **Dean's scholarship**, College of Future Technology, Peking University, *2024*
@@ -54,12 +60,10 @@ Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
 - **Award for Academic Excellents**, Peking University, *2023*
 - **Outstanding Project Award for undergraduate research training**, College of Engineering, Peking University, *2023*
 
-
 ## Educations
 - *2024.09 - Present*, Ph.D. student in Biomedical Engineering, College of Future Technology, Peking University
 - *2020.09 - 2024.07*, B.S. major in Theoretical and Applied Mechanics, College of Engineering, Peking University
 - *2020.09 - 2024.07*, B.S. minor in Biomedical Engineering, College of Engineering, Peking University
-
 
 ## Internships
 - *2023.07 - 2023.09*, Research Intern, United Imaging Intelligence, RIID, Beijing, China

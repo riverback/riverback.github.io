@@ -43,13 +43,6 @@ Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
 **_AAAI 2024_**\\
 [[pdf](https://arxiv.org/pdf/2402.17555)] [[arxiv](https://arxiv.org/abs/2402.17555)] [[code](https://github.com/Zxl19990529/Class-driven-Scribble-Promotion-Network)]
 
-
-## Projects
-- **PyTorch Attribution Toolbox**\\
-  Attribution methods for explaining image classification models.\\
-  [[Github](https://github.com/riverback/pytorch_attribution)]\\
-  ![image](https://riverback.github.io/images/pytorch_attribution.png)
-
 ## Honors and Awards
 - **AAAI-25 Student Scholarship**, AAAI, *2025*
 - **Dean's scholarship**, College of Future Technology, Peking University, *2024*

@@ -9,7 +9,7 @@ redirect_from:
 
 Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>), a Ph.D. student at College of Future Technology, Peking University. I study at Molecular Imaging / Medical Intelligence Lab ([MILAB](https://wiki.milab.wiki/)) at Peking University, under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=WSFToOMAAAAJ) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=7cOdUFgAAAAJ).
 
-My research interests focus on the trustworthiness of deep learning models, including explainability, generalization and their applications in medical image analysis. Feel free to email me if you are interested in collaboration or have any questions.
+My research focuses on the intersection of artificial intelligence and biomedical applications, with a particular emphasis on the trustworthiness of deep learning models, including explainability, generalization, and robustness.
 
 ## Publications
 ### (\#: Equal Contribution; \*: Corresponding Author)
@@ -45,7 +45,7 @@ Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
 
 ## Projects
 - **PyTorch Attribution Toolbox**\\
-  Feature attribution methods for explaining image classification models.\\
+  Feature attribution methods for explaining image classification models, with a Chinese patent (ZL 2024 1 0941326.8)\\
   [[Github](https://github.com/riverback/pytorch_attribution)]\\
   ![image](https://riverback.github.io/images/pytorch_attribution.png)
 
@@ -54,7 +54,7 @@ Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
 - **Dean's scholarship**, College of Future Technology, Peking University, *2024*
 - **Excellent Graduate**, Peking University, *2024*
 - **Honours Degrees**, College of Engineering, Peking University, *2024*
-- **Grand Challenges Scholar**, the Grand Challenges Scholars Program (GCSP), *2024*
+- **Grand Challenges Scholar**, the Grand Challenges Scholar, Grand Challenges Scholars Program & Peking University, *2024* (Top 5 undergraduates university-wide)
 - **Outstanding Project Award for undergraduate research training**, Peking University, *2024*
 - **Award for Academic Excellents**, Peking University, *2023*
 

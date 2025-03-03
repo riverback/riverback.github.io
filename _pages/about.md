@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>), a Ph.D. student at College of Future Technology, Peking University. I study at Molecular Imaging / Medical Intelligence Lab ([MILAB](https://wiki.milab.wiki/)) at Peking University, under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=WSFToOMAAAAJ) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=7cOdUFgAAAAJ).
+Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>), a Ph.D. student at College of Future Technology, Peking University. I study at **M**olecular **I**maging and **M**edical **I**ntelligence Lab ([MILab](https://milab-pku.github.io/)) at Peking University, under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=WSFToOMAAAAJ) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=7cOdUFgAAAAJ).
 
 My research focuses on the intersection of artificial intelligence and biomedical applications, with a particular emphasis on the trustworthiness of deep learning models, including explainability, generalization, and robustness.
 
@@ -15,7 +15,7 @@ My research focuses on the intersection of artificial intelligence and biomedica
 ### (\#: Equal Contribution; \*: Corresponding Author)
 - **V2C-CBM: Building Concept Bottlenecks with Vision-to-Concept Tokenizer**\\
 **Hangzhou He**, Lei Zhu, Xinliang Zhang, Shuang Zeng, Qian Chen, Yanye Lu\*\\
-**_AAAI 2025_**\\
+**_AAAI 2025_** (main track poster and oral at [workshop](https://github.com/riverback/riverback.github.io/blob/master/files/AAAI-25-Imageomics-slides-HangzhouHe.pdf))\\
 [[pdf](https://arxiv.org/abs/2501.04975)] [[doi]()] [[code](https://github.com/riverback/V2C-CBM)]
 
 - **Generative learning-based lightweight MRI brain tumor segmentation with missing modalities**\\
@@ -30,17 +30,17 @@ Lei Zhu, Xinliang Zhang, **Hangzhou He**, Qian Chen, Sha Li, Shuang Zeng, Yibao 
 
 - **Low-Rank Mixture-of-Experts for Continual Medical Image Segmentation**\\
 Qian Chen, Lei Zhu, **Hangzhou He**, Xinliang Zhang, Shuang Zeng, Qiushi Ren, Yanye Lu\*\\
-**_MICCAI 2024_**\\
+**_MICCAI 2024_** (poster)\\
 [[pdf](https://arxiv.org/pdf/2406.13583)] [[arxiv](https://arxiv.org/abs/2406.13583)] [code]
 
 - **On the Duality Between Sharpness-Aware Minimization and Adversarial Training**\\
 Yihao Zhang\#, **Hangzhou He**\#, Jingyu Zhu\#, Huanran Chen, Yifei Wang, Zeming Wei\*\\
-**_ICML 2024_**\\
+**_ICML 2024_** (poster)\\
 [[pdf](https://arxiv.org/pdf/2402.15152.pdf)] [[arxiv](https://arxiv.org/abs/2402.15152)] [[code](https://github.com/weizeming/SAM_AT)]  
 
 - **Scribble Hides Class: Promoting Scribble-based Weakly-supervised Semantic Segmentation with Its Class Label**\\
 Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
-**_AAAI 2024_**\\
+**_AAAI 2024_** (poster)\\
 [[pdf](https://arxiv.org/pdf/2402.17555)] [[arxiv](https://arxiv.org/abs/2402.17555)] [[code](https://github.com/Zxl19990529/Class-driven-Scribble-Promotion-Network)]
 
 ## Projects
@@ -73,4 +73,4 @@ Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
 - Conference Volunteer: AAAI2025
 
 ## Talsk
-- [Imageomics-AAAI-25](https://sites.google.com/view/imageomics-aaai-25), [Vision-to-Concept and Language Tokenizer](https://github.com/riverback/riverback.github.io/blob/master/files/AAAI-25-Imageomics-slides-HangzhouHe.pdf)
+- *2025.03*: Invited talk at [Imageomics-AAAI-25](https://sites.google.com/view/imageomics-aaai-25), introducing our Vision-to-Concept and Language Tokenizer. ([slides](https://github.com/riverback/riverback.github.io/blob/master/files/AAAI-25-Imageomics-slides-HangzhouHe.pdf)).

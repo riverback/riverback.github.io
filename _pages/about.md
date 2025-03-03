@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>), a Ph.D. student at College of Future Technology, Peking University. I study at **M**olecular **I**maging and **M**edical **I**ntelligence Lab ([MILab](https://milab-pku.github.io/)) at Peking University, under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=WSFToOMAAAAJ) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=7cOdUFgAAAAJ).
+Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>) from Peking University. I'm a first-year Ph.D. student at the **M**olecular **I**maging and **M**edical **I**ntelligence Lab ([MILab](https://milab-pku.github.io/)), under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=WSFToOMAAAAJ) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=7cOdUFgAAAAJ).
 
 My research focuses on the intersection of artificial intelligence and biomedical applications, with a particular emphasis on the trustworthiness of deep learning models, including explainability, generalization, and robustness.
 

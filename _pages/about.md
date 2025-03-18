@@ -72,5 +72,5 @@ Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
 - Conference Reviewer: ICLR2025
 - Conference Volunteer: AAAI2025
 
-## Talsk
+## Invited Talks
 - *2025.03*: Invited talk at [Imageomics-AAAI-25](https://sites.google.com/view/imageomics-aaai-25), introducing our Vision-to-Concept and Language Tokenizer. ([slides](https://github.com/riverback/riverback.github.io/blob/master/files/AAAI-25-Imageomics-slides-HangzhouHe.pdf)).

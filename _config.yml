@@ -10,7 +10,7 @@
 locale                   : "BeiJing, China"
 title                    : "Hangzhou He (何航舟) Homepage"
 title_separator          : "-"
-name                     : &name "Hangzhou He"
+name                     : &name "Hangzhou He (何航舟)"
 description              : &description "first-year Ph.D. student at Peking University"
 url                      : https://hangzhouhe.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -25,7 +25,7 @@ author:
   name             : "Hangzhou He"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. student at Peking University"
-  location         : Beijing, China
+  location         : "Beijing, China"
   employer         : "Peking University"
   uri              : # URL
   email            : "zhuang@stu.pku.edu.cn" 

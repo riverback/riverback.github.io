@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>) from Peking University. I'm a first-year Ph.D. student at the **M**olecular **I**maging and **M**edical **I**ntelligence Lab ([MILab](https://milab-pku.github.io/)), under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=WSFToOMAAAAJ) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=7cOdUFgAAAAJ).
+Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>) from Peking University. I'm a first-year Ph.D. student at the **M**olecular **I**maging and **M**edical **I**ntelligence Lab ([MILab](https://wiki.milab.wiki/)), under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=WSFToOMAAAAJ) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=7cOdUFgAAAAJ).
 
-My research focuses on the intersection of artificial intelligence and biomedical applications, with a particular emphasis on the trustworthiness of deep learning models, including explainability, generalization, and robustness.
+My research focuses on the intersection of artificial intelligence and biomedical applications, with a particular emphasis on the trustworthiness of deep learning models, including explainability, generalization, and robustness. If you are interested in collaborating (or just chatting) with me, feel free to email me.
 
 ## Publications
 ### (\#: Equal Contribution; \*: Corresponding Author)
@@ -59,18 +59,18 @@ Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
 - **Award for Academic Excellents**, Peking University, *2023*
 
 ## Educations
-- *2024.09 - Present*, Ph.D. student in Biomedical Engineering, College of Future Technology, Peking University
-- *2020.09 - 2024.07*, B.S. major in Theoretical and Applied Mechanics, College of Engineering, Peking University
-- *2020.09 - 2024.07*, B.S. minor in Biomedical Engineering, College of Engineering, Peking University
+- 2024.09 - Present, Ph.D. student in Biomedical Engineering, College of Future Technology, Peking University
+- 2020.09 - 2024.07, B.S. major in Theoretical and Applied Mechanics, College of Engineering, Peking University
+- 2020.09 - 2024.07, B.S. minor in Biomedical Engineering, College of Engineering, Peking University
 
 ## Internships
-- *2023.07 - 2023.09*, Research Intern, United Imaging Intelligence, RIID, Beijing, China
+- 2023.07 - 2023.09, Research Intern, United Imaging Intelligence, RIID, Beijing, China
   - Large language models for medical image analysis and structured reports
   - Supervisor: Dr. [Pei Dong](https://bme.shanghaitech.edu.cn/2021/0205/c10250a89895/page.htm)
 
 ## Services
-- Conference Reviewer: ICLR2025
+- Conference Reviewer: ICLR2025, ICCV2025
 - Conference Volunteer: AAAI2025
 
 ## Invited Talks
-- *2025.03*: Invited talk at [Imageomics-AAAI-25](https://sites.google.com/view/imageomics-aaai-25), introducing our Vision-to-Concept and Language Tokenizer. ([slides](https://github.com/riverback/riverback.github.io/blob/master/files/AAAI-25-Imageomics-slides-HangzhouHe.pdf)).
+- 2025.03: Invited talk at [Imageomics-AAAI-25](https://sites.google.com/view/imageomics-aaai-25), introducing our Vision-to-Concept and Language Tokenizer. ([slides](https://github.com/riverback/riverback.github.io/blob/master/files/AAAI-25-Imageomics-slides-HangzhouHe.pdf)).

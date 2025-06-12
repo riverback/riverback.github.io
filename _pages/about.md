@@ -78,7 +78,7 @@ Lei Zhu, Xinliang Zhang, **Hangzhou He**, Qian Chen, Sha Li, Shuang Zeng, Yibao 
 
 ## Services
 - Conference Reviewer: ICLR 2025, ICCV 2025, NeurIPS 2025
-- Workshop Reviewer: IJCAI 2025 MKLM
+- Workshop Reviewer: IJCAI 2025 MKLM, MICCAI 2025 iMIMIC
 - Conference Volunteer: AAAI 2025
 
 ## Invited Talks

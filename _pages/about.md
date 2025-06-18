@@ -15,6 +15,11 @@ My research focuses on the intersection of artificial intelligence and biomedica
 \#: Equal Contribution; \*: Corresponding Author
 
 ### Conference
+- **Training-free Test-time Improvement for Explainable Medical Image Classification**\\
+**Hangzhou He**, Jiachen Tang, Lei Zhu, Kaiwen Li, Yanye Lu\*\\
+**_MICCAI 2025_** (Accepted)\\
+[pdf] [doi] [[code](https://github.com/riverback/TF-TTI-XMed)]
+
 - **V2C-CBM: Building Concept Bottlenecks with Vision-to-Concept Tokenizer**\\
 **Hangzhou He**, Lei Zhu, Xinliang Zhang, Shuang Zeng, Qian Chen, Yanye Lu\*\\
 **_AAAI 2025_** (main track poster and oral at [workshop](https://github.com/riverback/riverback.github.io/blob/master/files/AAAI-25-Imageomics-slides-HangzhouHe.pdf))\\

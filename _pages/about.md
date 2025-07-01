@@ -17,7 +17,7 @@ My research focuses on the intersection of artificial intelligence and biomedica
 ### Conference
 - **Enhancing Image Restoration Transformer via Adaptive Translation Equivariance**\\
 Jiakui Hu, Zhengjian Yao, Lujia Jin, **Hangzhou He**, Yanye Lu\*\\
-**__ICCV 2025__** (Accepted)\\
+**_ICCV 2025_** (Accepted)\\
 [[pdf](https://arxiv.org/abs/2506.18520)] [doi] [code]
 
 - **Training-free Test-time Improvement for Explainable Medical Image Classification**\\
@@ -48,7 +48,7 @@ Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
 ### Journal
 - **Points-supervised Fundus Vessel Segmentation via Shape Priors and Contrastive Learning**\\
 Kaiwen Li, **Hangzhou He**, Shuang Zeng, Xinliang Zhang, Yuanwei Li, Lei Zhu\*, Yanye Lu\*\\
-**__IEEE Transactions on Medical Imaging__**
+**_IEEE Transactions on Medical Imaging_**
 [pdf] [doi] [code]
 
 - **Assessing Response in Endoscopy Images of Esophageal Cancer Treated with Total Neoadjuvant Therapy via Hybrid-Architecture Ensemble Deep Learning**\\

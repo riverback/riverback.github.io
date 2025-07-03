@@ -48,7 +48,7 @@ Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
 ### Journal
 - **Points-supervised Fundus Vessel Segmentation via Shape Priors and Contrastive Learning**\\
 Kaiwen Li, **Hangzhou He**, Shuang Zeng, Xinliang Zhang, Yuanwei Li, Lei Zhu\*, Yanye Lu\*\\
-**_IEEE Transactions on Medical Imaging_**
+**_IEEE Transactions on Medical Imaging_**\\
 [pdf] [doi] [code]
 
 - **Assessing Response in Endoscopy Images of Esophageal Cancer Treated with Total Neoadjuvant Therapy via Hybrid-Architecture Ensemble Deep Learning**\\

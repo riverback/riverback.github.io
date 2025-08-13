@@ -17,12 +17,12 @@ My research focuses on the intersection of artificial intelligence and biomedica
 ### Conference
 - **Enhancing Image Restoration Transformer via Adaptive Translation Equivariance**\\
 Jiakui Hu, Zhengjian Yao, Lujia Jin, **Hangzhou He**, Yanye Lu\*\\
-**_ICCV 2025_** (Accepted)\\
+**_ICCV 2025_** (poster)\\
 [[pdf](https://arxiv.org/abs/2506.18520)] [doi] [code]
 
 - **Training-free Test-time Improvement for Explainable Medical Image Classification**\\
 **Hangzhou He**\#, Jiachen Tang\#, Lei Zhu, Kaiwen Li, Yanye Lu\*\\
-**_MICCAI 2025_** (Accepted)\\
+**_MICCAI 2025_** (spotlight)\\
 [[pdf](https://arxiv.org/abs/2506.18070)] [doi] [[code](https://github.com/riverback/TF-TTI-XMed)]
 
 - **V2C-CBM: Building Concept Bottlenecks with Vision-to-Concept Tokenizer**\\
@@ -92,7 +92,7 @@ Lei Zhu, Xinliang Zhang, **Hangzhou He**, Qian Chen, Sha Li, Shuang Zeng, Yibao 
   - Supervisor: Dr. [Pei Dong](https://bme.shanghaitech.edu.cn/2021/0205/c10250a89895/page.htm)
 
 ## Services
-- Conference Reviewer: ICLR 2025, ICCV 2025, NeurIPS 2025, AAAI 2025, AAAI-AIA 2025
+- Conference Reviewer: ICLR 2025, ICCV 2025, NeurIPS 2025, AAAI 2026, AAAI-AIA 2026
 - Workshop Reviewer: IJCAI 2025 MKLM, MICCAI 2025 iMIMIC
 - Conference Volunteer: AAAI 2025
 

@@ -92,8 +92,8 @@ Lei Zhu, Xinliang Zhang, **Hangzhou He**, Qian Chen, Sha Li, Shuang Zeng, Yibao 
   - Supervisor: Dr. [Pei Dong](https://bme.shanghaitech.edu.cn/2021/0205/c10250a89895/page.htm)
 
 ## Services
-- Conference Reviewer: ICLR 2025, ICCV 2025, NeurIPS 2025, AAAI 2026, AAAI-AIA 2026
-- Workshop Reviewer: IJCAI 2025 MKLM, MICCAI 2025 iMIMIC
+- Conference Reviewer: ICLR 2025 2026, ICCV 2025, NeurIPS 2025, AAAI 2026, AAAI-AIA 2026
+- Workshop Reviewer: MKLM (@ IJCAI 2025), iMIMIC (@ MICCAI 2025)
 - Conference Volunteer: AAAI 2025
 
 ## Invited Talks

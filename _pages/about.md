@@ -23,7 +23,7 @@ Jiakui Hu, Zhengjian Yao, Lujia Jin, **Hangzhou He**, Yanye Lu\*\\
 - **Training-free Test-time Improvement for Explainable Medical Image Classification**\\
 **Hangzhou He**\#, Jiachen Tang\#, Lei Zhu, Kaiwen Li, Yanye Lu\*\\
 **_MICCAI 2025_** (spotlight)\\
-[[pdf](https://arxiv.org/abs/2506.18070)] [doi] [[code](https://github.com/riverback/TF-TTI-XMed)]
+[[pdf](https://arxiv.org/abs/2506.18070)] [[doi](https://doi.org/10.1007/978-3-032-05185-1_61)] [[code](https://github.com/riverback/TF-TTI-XMed)]
 
 - **V2C-CBM: Building Concept Bottlenecks with Vision-to-Concept Tokenizer**\\
 **Hangzhou He**, Lei Zhu, Xinliang Zhang, Shuang Zeng, Qian Chen, Yanye Lu\*\\

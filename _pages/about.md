@@ -9,17 +9,18 @@ redirect_from:
 
 Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>) from Peking University. I'm a first-year Ph.D. student at the **M**olecular **I**maging and **M**edical **I**ntelligence Lab ([MILab](https://wiki.milab.wiki/)), under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=en&authuser=1&user=WSFToOMAAAAJ) (<font face=STKaiti>卢闫晔</font>) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=en&authuser=1&user=7cOdUFgAAAAJ) (<font face=STKaiti>任秋实</font>).
 
-My research focuses on the intersection of artificial intelligence and biomedical applications, with a particular emphasis on the trustworthiness of deep learning models, including explainability, generalization, and robustness. If you are interested in collaborating (or just chatting) with me, feel free to email me.
+My research focuses on the intersection of artificial intelligence and biomedical applications, with a particular emphasis on the trustworthiness of deep learning models, including explainability, generalization, and building interpretable models. If you are interested in collaborating (or just chatting) with me, feel free to email me.
 
-## Publications
+## Selected Publications
 \#: Equal Contribution; \*: Corresponding Author
+### Preprint
+- **Chat-CBM: Towards Interactive Concept Bottleneck Models with Frozen Large Language Models**\\
+**Hangzhou He**, Lei Zhu, Kaiwen Li, Xinliang Zhang, Jiakui Hu, Ourui Fu, Zhengjian Yao, Yanye Lu\*\\
+arxiv September 2025\\
+[[pdf](https://arxiv.org/abs/2509.17522)] [doi] [code]
+
 
 ### Conference
-- **Enhancing Image Restoration Transformer via Adaptive Translation Equivariance**\\
-Jiakui Hu, Zhengjian Yao, Lujia Jin, **Hangzhou He**, Yanye Lu\*\\
-**_ICCV 2025_** (poster)\\
-[[pdf](https://arxiv.org/abs/2506.18520)] [doi] [code]
-
 - **Training-free Test-time Improvement for Explainable Medical Image Classification**\\
 **Hangzhou He**\#, Jiachen Tang\#, Lei Zhu, Kaiwen Li, Yanye Lu\*\\
 **_MICCAI 2025_** (spotlight)\\
@@ -30,20 +31,10 @@ Jiakui Hu, Zhengjian Yao, Lujia Jin, **Hangzhou He**, Yanye Lu\*\\
 **_AAAI 2025_** (main track poster and oral at [workshop](https://github.com/riverback/riverback.github.io/blob/master/files/AAAI-25-Imageomics-slides-HangzhouHe.pdf))\\
 [[pdf](https://arxiv.org/abs/2501.04975)] [[doi](https://doi.org/10.1609/aaai.v39i3.32352)] [[code](https://github.com/riverback/V2C-CBM)]
 
-- **Low-Rank Mixture-of-Experts for Continual Medical Image Segmentation**\\
-Qian Chen, Lei Zhu, **Hangzhou He**, Xinliang Zhang, Shuang Zeng, Qiushi Ren, Yanye Lu\*\\
-**_MICCAI 2024_** (poster)\\
-[[pdf](https://arxiv.org/pdf/2406.13583)] [[doi](https://doi.org/10.1007/978-3-031-72111-3_36)] [code]
-
 - **On the Duality Between Sharpness-Aware Minimization and Adversarial Training**\\
 Yihao Zhang\#, **Hangzhou He**\#, Jingyu Zhu\#, Huanran Chen, Yifei Wang, Zeming Wei\*\\
 **_ICML 2024_** (poster)\\
 [[pdf](https://arxiv.org/pdf/2402.15152.pdf)] [[doi](https://arxiv.org/abs/2402.15152)] [[code](https://github.com/weizeming/SAM_AT)]  
-
-- **Scribble Hides Class: Promoting Scribble-based Weakly-supervised Semantic Segmentation with Its Class Label**\\
-Xinliang Zhang\#, Lei Zhu\#, **Hangzhou He**, Lujia Jin, Yanye Lu\*\\
-**_AAAI 2024_** (poster)\\
-[[pdf](https://arxiv.org/pdf/2402.17555)] [[doi](https://doi.org/10.1609/aaai.v38i7.28563)] [[code](https://github.com/Zxl19990529/Class-driven-Scribble-Promotion-Network)]
 
 ### Journal
 - **Points-supervised Fundus Vessel Segmentation via Shape Priors and Contrastive Learning**\\
@@ -56,15 +47,6 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
 **_Frontiers in Oncology_**\\
 [[pdf](https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1590448/full)] [[doi](https://doi.org/10.3389/fonc.2025.1590448)] [[code](https://github.com/riverback/EC-HAENet)]
 
-- **Generative learning-based lightweight MRI brain tumor segmentation with missing modalities**\\
-Xinliang Zhang, Qian Chen, **Hangzhou He**, Lei Zhu, Zhaoheng Xie, Yanye Lu\*, Fangxiao Cheng\*\\
-**_Expert Systems with Applications_**\\
-[[pdf](https://doi.org/10.1016/j.eswa.2024.125478)] [[doi](https://doi.org/10.1016/j.eswa.2024.125478)] [code]
-
-- **Branches Mutual Promotion for End-to-End Weakly Supervised Semantic Segmentation**\\
-Lei Zhu, Xinliang Zhang, **Hangzhou He**, Qian Chen, Sha Li, Shuang Zeng, Yibao Zhang, Qiushi Ren, Yanye Lu\*\\
-**_IEEE Transactions on Neural Networks and Learning Systems_**\\
-[[pdf](https://arxiv.org/pdf/2308.04949)] [[doi](https://doi.org/10.1109/TNNLS.2024.3467132)] [[code](https://github.com/zh460045050/BMP-WSSS)]
 
 ## Projects
 - **PyTorch Attribution Toolbox**\\

@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>) from Peking University. I'm a first-year Ph.D. student at the **M**olecular **I**maging and **M**edical **I**ntelligence Lab ([MILab](https://wiki.milab.wiki/)), under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=en&authuser=1&user=WSFToOMAAAAJ) (<font face=STKaiti>卢闫晔</font>) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=en&authuser=1&user=7cOdUFgAAAAJ) (<font face=STKaiti>任秋实</font>).
+Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>) from Peking University. I'm a Ph.D. student at the **M**olecular **I**maging and **M**edical **I**ntelligence Lab ([MILab](https://wiki.milab.wiki/)), under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=en&authuser=1&user=WSFToOMAAAAJ) (<font face=STKaiti>卢闫晔</font>) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=en&authuser=1&user=7cOdUFgAAAAJ) (<font face=STKaiti>任秋实</font>).
 
-My research focuses on the intersection of artificial intelligence and biomedical applications, with a particular emphasis on the trustworthiness of deep learning models, including explainability, generalization, and building interpretable models. If you are interested in collaborating (or just chatting) with me, feel free to email me.
+My research focuses on the intersection of artificial intelligence and biomedical applications, with a particular emphasis on the trustworthiness of deep learning models, including explainability, generalization, and building interpretable models. Feel free to email me for any questions or interesting ideas.
 
 ## Selected Publications
 \#: Equal Contribution; \*: Corresponding Author
@@ -18,7 +18,6 @@ My research focuses on the intersection of artificial intelligence and biomedica
 **Hangzhou He**, Lei Zhu, Kaiwen Li, Xinliang Zhang, Jiakui Hu, Ourui Fu, Zhengjian Yao, Yanye Lu\*\\
 arxiv September 2025\\
 [[pdf](https://arxiv.org/abs/2509.17522)] [doi] [code]
-
 
 ### Conference
 - **Training-free Test-time Improvement for Explainable Medical Image Classification**\\
@@ -55,18 +54,18 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
   ![image](https://riverback.github.io/images/pytorch_attribution.png)
 
 ## Honors and Awards
+- **National Scholarship**, Ministry of Education of China, *2025*
 - **AAAI-25 Student Scholarship**, AAAI, *2025*
 - **Dean's scholarship**, College of Future Technology, Peking University, *2024*, *2025*
 - **Excellent Graduate**, Peking University, *2024*
 - **Honours Degrees**, College of Engineering, Peking University, *2024*
 - **Grand Challenges Scholar**, the Grand Challenges Scholar, Grand Challenges Scholars Program & Peking University, *2024* (Top 5 undergraduates university-wide)
-- **Outstanding Project Award for undergraduate research training**, Peking University, *2024*
+- **Outstanding Project Award for Undergraduate Research**, Peking University, *2024*
 - **Award for Academic Excellents**, Peking University, *2023*
 
 ## Educations
-- 2024.09 - Present, Ph.D. student in Biomedical Engineering, College of Future Technology, Peking University
-- 2020.09 - 2024.07, B.S. major in Theoretical and Applied Mechanics, College of Engineering, Peking University
-- 2020.09 - 2024.07, B.S. minor in Biomedical Engineering, College of Engineering, Peking University
+- 2024.09 - Present, Ph.D. student, Department of Biomedical Engineering, College of Future Technology, Peking University
+- 2020.09 - 2024.07, B.S. in Theoretical and Applied Mechanics, minor in Biomedical Engineering, College of Engineering, Peking University
 
 ## Internships
 - 2023.07 - 2023.09, Research Intern, United Imaging Intelligence, RIID, Beijing, China
@@ -74,7 +73,7 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
   - Supervisor: Dr. [Pei Dong](https://bme.shanghaitech.edu.cn/2021/0205/c10250a89895/page.htm)
 
 ## Services
-- Conference Reviewer: ICLR 2025 2026, ICCV 2025, NeurIPS 2025, AAAI 2026, AAAI-AIA 2026
+- Conference Reviewer: ICLR, NeurIPS, ICCV, AAAI
 - Workshop Reviewer: MKLM (@ IJCAI 2025), iMIMIC (@ MICCAI 2025)
 - Conference Volunteer: AAAI 2025
 

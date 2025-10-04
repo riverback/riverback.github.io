@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "BeiJing, China"
-title                    : "Hangzhou He (何航舟) Homepage"
+title                    : "Hangzhou He (何航舟)"
 title_separator          : "-"
 name                     : &name "Hangzhou He (何航舟)"
-description              : &description "first-year Ph.D. student at Peking University"
+description              : &description "Ph.D. student at Peking University"
 url                      : https://hangzhouhe.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "riverback/riverback.github.io"

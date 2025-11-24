@@ -16,7 +16,7 @@ My research focuses on the intersection of artificial intelligence and biomedica
 ### Preprint
 - **Chat-CBM: Towards Interactive Concept Bottleneck Models with Frozen Large Language Models**\\
 **Hangzhou He**, Lei Zhu, Kaiwen Li, Xinliang Zhang, Jiakui Hu, Ourui Fu, Zhengjian Yao, Yanye Lu\*\\
-arxiv September 2025\\
+**_arxiv September 2025_**\\
 [[pdf](https://arxiv.org/abs/2509.17522)] [doi] [code]
 
 ### Conference
@@ -55,6 +55,7 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
 
 ## Honors and Awards
 - **National Scholarship**, Ministry of Education of China, *2025*
+- **Academic Exchange Fund for Graduate Students**, Peking University, *2025*
 - **AAAI-25 Student Scholarship**, AAAI, *2025*
 - **Dean's scholarship**, College of Future Technology, Peking University, *2024*, *2025*
 - **Excellent Graduate**, Peking University, *2024*
@@ -70,10 +71,10 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
 ## Internships
 - 2023.07 - 2023.09, Research Intern, United Imaging Intelligence, RIID, Beijing, China
   - Large language models for medical image analysis and structured reports
-  - Supervisor: Dr. [Pei Dong](https://bme.shanghaitech.edu.cn/2021/0205/c10250a89895/page.htm)
+  - Mentor: Dr. [Pei Dong](https://bme.shanghaitech.edu.cn/2021/0205/c10250a89895/page.htm)
 
 ## Services
-- Conference Reviewer: ICLR, NeurIPS, ICCV, AAAI
+- Conference Reviewer: ICLR, NeurIPS, ICCV, CVPR, AAAI
 - Workshop Reviewer: MKLM (@ IJCAI 2025), iMIMIC (@ MICCAI 2025)
 - Conference Volunteer: AAAI 2025
 

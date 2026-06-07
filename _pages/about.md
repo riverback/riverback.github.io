@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>) from Peking University. I'm a Ph.D. student at the **M**olecular **I**maging and **M**edical **I**ntelligence Lab ([MILab](https://wiki.milab.wiki/)), under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=en&authuser=1&user=WSFToOMAAAAJ) (<font face=STKaiti>卢闫晔</font>) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=en&authuser=1&user=7cOdUFgAAAAJ) (<font face=STKaiti>任秋实</font>).
+Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>) from Peking University. I'm a Ph.D. student at the **M**olecular **I**maging and **M**achine **I**ntelligence Lab ([MILab](https://wiki.milab.wiki/)), under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=en&authuser=1&user=WSFToOMAAAAJ) (<font face=STKaiti>卢闫晔</font>) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=en&authuser=1&user=7cOdUFgAAAAJ) (<font face=STKaiti>任秋实</font>).
 
 My research focuses on the intersection of artificial intelligence and biomedical applications, with a particular emphasis on the trustworthiness of deep learning models, including explainability, generalization, and building interpretable models. Feel free to email me for any questions or interesting ideas.
 
@@ -47,13 +47,14 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
 [[pdf](https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1590448/full)] [[doi](https://doi.org/10.3389/fonc.2025.1590448)] [[code](https://github.com/riverback/EC-HAENet)]
 
 
-## Projects
+## Projects & Patents
 - **PyTorch Attribution Toolbox**\\
   Feature attribution methods for explaining image classification models, with a Chinese patent (ZL 2024 1 0941326.8)\\
   [[Github](https://github.com/riverback/pytorch_attribution)]\\
   ![image](https://riverback.github.io/images/pytorch_attribution.png)
 
 ## Honors and Awards
+- **Special Prize**, the 34th Challenge Cup, Peking University, *2026*
 - **National Scholarship**, Ministry of Education of China, *2025*
 - **Academic Exchange Fund for Graduate Students**, Peking University, *2025*
 - **AAAI-25 Student Scholarship**, AAAI, *2025*
@@ -74,8 +75,9 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
   - Mentor: Dr. [Pei Dong](https://bme.shanghaitech.edu.cn/2021/0205/c10250a89895/page.htm)
 
 ## Services
-- Conference Reviewer: ICLR, NeurIPS, ICCV, CVPR, AAAI
-- Workshop Reviewer: MKLM (@ IJCAI 2025), iMIMIC (@ MICCAI 2025)
+- Conference Reviewer: ICLR, NeurIPS, ICCV, CVPR, ECCV, BMVC, AAAI, MICCAI
+- Workshop Reviewer: MKLM (@ IJCAI 2025), iMIMIC (@ MICCAI 2025, 2026)
+- Journal Reviewer: Biomedical Optics Express
 - Conference Volunteer: AAAI 2025
 
 ## Invited Talks

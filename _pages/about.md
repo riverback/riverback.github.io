@@ -20,6 +20,11 @@ My research focuses on the intersection of artificial intelligence and biomedica
 [[pdf](https://arxiv.org/abs/2509.17522)] [doi] [code]
 
 ### Conference
+- **Cross-domain Controllable Generation Enables Zero-shot Fundus Image Analysis**\\
+Kaiwen Li, **Hangzhou He**, Jiakui Hu, Zhengjian Yao, Shuang Zeng, Ourui Fu, Lei Zhu, Yanye Lu\*
+**_MICCAI 2026_** (early accept)
+[[pdf]()] [[doi]()] [[code]()]
+
 - **Training-free Test-time Improvement for Explainable Medical Image Classification**\\
 **Hangzhou He**\#, Jiachen Tang\#, Lei Zhu, Kaiwen Li, Yanye Lu\*\\
 **_MICCAI 2025_** (spotlight)\\

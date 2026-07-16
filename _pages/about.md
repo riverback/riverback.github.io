@@ -20,11 +20,6 @@ My research focuses on the intersection of artificial intelligence and biomedica
 [[pdf](https://arxiv.org/abs/2509.17522)] [doi] [code]
 
 ### Conference
-- **Cross-domain Controllable Generation Enables Zero-shot Fundus Image Analysis**\\
-Kaiwen Li, **Hangzhou He**, Jiakui Hu, Zhengjian Yao, Shuang Zeng, Ourui Fu, Lei Zhu, Yanye Lu\*
-**_MICCAI 2026_** (early accept)
-[[pdf]()] [[doi]()] [[code]()]
-
 - **Training-free Test-time Improvement for Explainable Medical Image Classification**\\
 **Hangzhou He**\#, Jiachen Tang\#, Lei Zhu, Kaiwen Li, Yanye Lu\*\\
 **_MICCAI 2025_** (spotlight)\\
@@ -41,16 +36,10 @@ Yihao Zhang\#, **Hangzhou He**\#, Jingyu Zhu\#, Huanran Chen, Yifei Wang, Zeming
 [[pdf](https://arxiv.org/pdf/2402.15152.pdf)] [[doi](https://arxiv.org/abs/2402.15152)] [[code](https://github.com/weizeming/SAM_AT)]  
 
 ### Journal
-- **Points-supervised Fundus Vessel Segmentation via Shape Priors and Contrastive Learning**\\
-Kaiwen Li, **Hangzhou He**, Shuang Zeng, Xinliang Zhang, Yuanwei Li, Lei Zhu\*, Yanye Lu\*\\
-**_IEEE Transactions on Medical Imaging_**\\
-[pdf] [[doi](https://doi.org/10.1109/tmi.2025.3586692)] [[code](https://github.com/kaiwenli325/PVN)]
-
 - **Assessing Response in Endoscopy Images of Esophageal Cancer Treated with Total Neoadjuvant Therapy via Hybrid-Architecture Ensemble Deep Learning**\\
 Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Chen\*, Qi Wu\*, Yanye Lu\*\\
 **_Frontiers in Oncology_**\\
 [[pdf](https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1590448/full)] [[doi](https://doi.org/10.3389/fonc.2025.1590448)] [[code](https://github.com/riverback/EC-HAENet)]
-
 
 ## Projects & Patents
 - **PyTorch Attribution Toolbox**\\
@@ -59,10 +48,11 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
   ![image](https://riverback.github.io/images/pytorch_attribution.png)
 
 ## Honors and Awards
-- **Special Prize**, the 34th Challenge Cup, Peking University, *2026*
+- **Special Prize**, [the 34th Challenge Cup](https://mp.weixin.qq.com/s/Xjj7Nf7g7mHBoMwEMWrIvQ), Peking University, *2026*
 - **National Scholarship**, Ministry of Education of China, *2025*
 - **Academic Exchange Fund for Graduate Students**, Peking University, *2025*
 - **AAAI-25 Student Scholarship**, AAAI, *2025*
+- **Merit Student Award**, Peking University, *2025*
 - **Dean's scholarship**, College of Future Technology, Peking University, *2024*, *2025*
 - **Excellent Graduate**, Peking University, *2024*
 - **Honours Degrees**, College of Engineering, Peking University, *2024*
@@ -75,13 +65,17 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
 - 2020.09 - 2024.07, B.S. in Theoretical and Applied Mechanics, minor in Biomedical Engineering, College of Engineering, Peking University
 
 ## Internships
-- 2023.07 - 2023.09, Research Intern, United Imaging Intelligence, RIID, Beijing, China
-  - Large language models for medical image analysis and structured reports
+2026.01 - Present, AI Business / ATH-MaaS, Alibaba Group, Beijing, China
+  - Agentic AI and AIGC.
+  - Mentor: Dr. [Shanshan Zhao](https://sshan-zhao.github.io)
+
+- 2023.07 - 2023.09, Beijing United Imaging Research Institute of Intelligent Imaging, Beijing, China
+  - Medical MLLMs.
   - Mentor: Dr. [Pei Dong](https://bme.shanghaitech.edu.cn/2021/0205/c10250a89895/page.htm)
 
 ## Services
 - Conference Reviewer: ICLR, NeurIPS, ICCV, CVPR, ECCV, BMVC, AAAI, MICCAI
-- Workshop Reviewer: MKLM (@ IJCAI 2025), iMIMIC (@ MICCAI 2025, 2026)
+- Workshop Reviewer: MKLM @ IJCAI, iMIMIC MICCAI, CARE @ MICCAI
 - Journal Reviewer: Biomedical Optics Express
 - Conference Volunteer: AAAI 2025
 

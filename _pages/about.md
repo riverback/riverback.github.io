@@ -48,7 +48,7 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
   ![image](https://riverback.github.io/images/pytorch_attribution.png)
 
 ## Honors and Awards
-- [**Special Prize**](https://mp.weixin.qq.com/s/Xjj7Nf7g7mHBoMwEMWrIvQ), the 34th Challenge Cup, Peking University, *2026*
+- [**Grand Prize**](https://mp.weixin.qq.com/s/Xjj7Nf7g7mHBoMwEMWrIvQ), the 34th Challenge Cup, Peking University, *2026*
 - **National Scholarship**, Ministry of Education of China, *2025*
 - **Academic Exchange Fund for Graduate Students**, Peking University, *2025*
 - **AAAI-25 Student Scholarship**, AAAI, *2025*
@@ -56,7 +56,7 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
 - **Dean's scholarship**, College of Future Technology, Peking University, *2024*, *2025*
 - **Excellent Graduate**, Peking University, *2024*
 - **Honours Degrees**, College of Engineering, Peking University, *2024*
-- **Grand Challenges Scholar**, the Grand Challenges Scholar, Grand Challenges Scholars Program & Peking University, *2024* (Top 5 undergraduates university-wide)
+- [**Grand Challenges Scholar**](https://mp.weixin.qq.com/s/gk3kJqRMYZm8h5C7k-WITw), the Grand Challenges Scholar, Grand Challenges Scholars Program & Peking University, *2024* (Top 5 undergraduates university-wide)
 - **Outstanding Project Award for Undergraduate Research**, Peking University, *2024*
 - **Award for Academic Excellents**, Peking University, *2023*
 

@@ -48,7 +48,7 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
   ![image](https://riverback.github.io/images/pytorch_attribution.png)
 
 ## Honors and Awards
-- **Special Prize**, [the 34th Challenge Cup](https://mp.weixin.qq.com/s/Xjj7Nf7g7mHBoMwEMWrIvQ), Peking University, *2026*
+- [**Special Prize**](https://mp.weixin.qq.com/s/Xjj7Nf7g7mHBoMwEMWrIvQ), the 34th Challenge Cup, Peking University, *2026*
 - **National Scholarship**, Ministry of Education of China, *2025*
 - **Academic Exchange Fund for Graduate Students**, Peking University, *2025*
 - **AAAI-25 Student Scholarship**, AAAI, *2025*
@@ -65,11 +65,11 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
 - 2020.09 - 2024.07, B.S. in Theoretical and Applied Mechanics, minor in Biomedical Engineering, College of Engineering, Peking University
 
 ## Internships
-2026.01 - Present, AI Business / ATH-MaaS, Alibaba Group, Beijing, China
+2026.01 - Present, AI Business / ATH-MaaS, Alibaba Group
   - Agentic AI and AIGC.
   - Mentor: Dr. [Shanshan Zhao](https://sshan-zhao.github.io)
 
-- 2023.07 - 2023.09, Beijing United Imaging Research Institute of Intelligent Imaging, Beijing, China
+2023.07 - 2023.09, Beijing United Imaging Research Institute of Intelligent Imaging
   - Medical MLLMs.
   - Mentor: Dr. [Pei Dong](https://bme.shanghaitech.edu.cn/2021/0205/c10250a89895/page.htm)
 

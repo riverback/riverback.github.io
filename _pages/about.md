@@ -36,6 +36,11 @@ Yihao Zhang\#, **Hangzhou He**\#, Jingyu Zhu\#, Huanran Chen, Yifei Wang, Zeming
 [[pdf](https://arxiv.org/pdf/2402.15152.pdf)] [[doi](https://arxiv.org/abs/2402.15152)] [[code](https://github.com/weizeming/SAM_AT)]  
 
 ### Journal
+- **Test-Time Scaling for Video Diffusion Models via Diagnosis-Guided Candidate Recycling**\\
+**Hangzhou He**, Lunhao Duan, Shanshan Zhao\*, Kaiwen Li, Qing-Guo Chen, Weihua Luo, Yanye Lu\*\\
+**_ACM Transactions on Graphics (SIGGRAPH Asia 2026)_**\\
+[[pdf]()] [[doi]()] [[code]()]
+
 - **Assessing Response in Endoscopy Images of Esophageal Cancer Treated with Total Neoadjuvant Therapy via Hybrid-Architecture Ensemble Deep Learning**\\
 Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Chen\*, Qi Wu\*, Yanye Lu\*\\
 **_Frontiers in Oncology_**\\
@@ -65,9 +70,9 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
 - 2020.09 - 2024.07, B.S. in Theoretical and Applied Mechanics, minor in Biomedical Engineering, College of Engineering, Peking University
 
 ## Internships
-2026.01 - Present, AI Business / ATH-MaaS, Alibaba Group
-  - Agentic AI and AIGC.
-  - Mentor: Dr. [Shanshan Zhao](https://sshan-zhao.github.io)
+2026.01 - 2026.9, ATH MaaS, Alibaba Group
+  - Agentic AIGC.
+  - Mentor: Dr. Shanshan Zhao
 
 2023.07 - 2023.09, Beijing United Imaging Research Institute of Intelligent Imaging
   - Medical MLLMs.

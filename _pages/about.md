@@ -39,7 +39,7 @@ Yihao Zhang\#, **Hangzhou He**\#, Jingyu Zhu\#, Huanran Chen, Yifei Wang, Zeming
 - **Test-Time Scaling for Video Diffusion Models via Diagnosis-Guided Candidate Recycling**\\
 **Hangzhou He**, Lunhao Duan, Shanshan Zhao\*, Kaiwen Li, Qing-Guo Chen, Weihua Luo, Yanye Lu\*\\
 **_ACM Transactions on Graphics (SIGGRAPH Asia 2026)_**\\
-[[pdf]()] [[doi]()] [[code]()]
+[[pdf](https://arxiv.org/abs/2608.29322)] [[doi](https://doi.org/10.1145/3842526)] [[code](https://github.com/ATH-MaaS/Guided_Editing_for_Adaptive_Recycling_Search)]
 
 - **Assessing Response in Endoscopy Images of Esophageal Cancer Treated with Total Neoadjuvant Therapy via Hybrid-Architecture Ensemble Deep Learning**\\
 Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Chen\*, Qi Wu\*, Yanye Lu\*\\

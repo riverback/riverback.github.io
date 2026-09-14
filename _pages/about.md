@@ -9,7 +9,7 @@ redirect_from:
 
 Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>) from Peking University. I'm a Ph.D. student at the **M**olecular **I**maging and **M**achine **I**ntelligence Lab ([MILab](https://wiki.milab.wiki/)), under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=en&authuser=1&user=WSFToOMAAAAJ) (<font face=STKaiti>卢闫晔</font>) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=en&authuser=1&user=7cOdUFgAAAAJ) (<font face=STKaiti>任秋实</font>).
 
-My research focuses on the intersection of artificial intelligence and biomedical applications, with a particular emphasis on the trustworthiness of deep learning models, including explainability, generalization, and building interpretable models. Feel free to email me for any questions or interesting ideas.
+Feel free to email me for any questions or interesting ideas.
 
 ## Selected Publications
 \#: Equal Contribution; \*: Corresponding Author
@@ -18,6 +18,10 @@ My research focuses on the intersection of artificial intelligence and biomedica
 **Hangzhou He**, Lei Zhu, Kaiwen Li, Xinliang Zhang, Jiakui Hu, Ourui Fu, Zhengjian Yao, Yanye Lu\*\\
 **_arxiv September 2025_**\\
 [[pdf](https://arxiv.org/abs/2509.17522)] [doi] [code]
+
+- **Beyond Visual Generation: Frontiers, Challenges, and Future Directions in Agentic Visual Creation**\\
+Hefei Mei#, **Hangzhou He**#, Haiyi Qiu#, Longrong Yang#, Lunhao Duan#, Shanshan Zhao\*, Pengxin Zhan, Qing-Guo Chen, Zhao Xu, Weihua Luo\\
+[[pdf](https://www.preprints.org/manuscript/202609.0682)] [[repo](https://github.com/ATH-MaaS/Awesome-Agentic-Visual-Creation)]
 
 ### Conference
 - **Training-free Test-time Improvement for Explainable Medical Image Classification**\\
@@ -70,8 +74,8 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
 - 2020.09 - 2024.07, B.S. in Theoretical and Applied Mechanics, minor in Biomedical Engineering, College of Engineering, Peking University
 
 ## Internships
-2026.01 - 2026.9, ATH MaaS, Alibaba Group
-  - Agentic AIGC.
+2026.01 - 2026.9, AI Business / ATH MaaS, Alibaba Group
+  - Test-Time Scaling, Agentic AIGC.
   - Mentor: Dr. Shanshan Zhao
 
 2023.07 - 2023.09, Beijing United Imaging Research Institute of Intelligent Imaging
@@ -80,7 +84,7 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
 
 ## Services
 - Conference Reviewer: ICLR, NeurIPS, ICCV, CVPR, ECCV, BMVC, AAAI, MICCAI
-- Workshop Reviewer: MKLM @ IJCAI, iMIMIC MICCAI, CARE @ MICCAI
+- Workshop Reviewer: MKLM @ IJCAI, {iMIMIC, CARE} @ MICCAI
 - Journal Reviewer: Biomedical Optics Express
 - Conference Volunteer: AAAI 2025
 

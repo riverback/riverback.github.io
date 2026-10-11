@@ -23,6 +23,18 @@ Feel free to email me for any questions or interesting ideas.
 Hefei Mei#, **Hangzhou He**#, Haiyi Qiu#, Longrong Yang#, Lunhao Duan#, Shanshan Zhao\*, Pengxin Zhan, Qing-Guo Chen, Zhao Xu, Weihua Luo\\
 [[pdf](https://www.preprints.org/manuscript/202609.0682)] [[repo](https://github.com/ATH-MaaS/Awesome-Agentic-Visual-Creation)]
 
+
+### Journal
+- **Test-Time Scaling for Video Diffusion Models via Diagnosis-Guided Candidate Recycling**\\
+**Hangzhou He**, Lunhao Duan, Shanshan Zhao\*, Kaiwen Li, Qing-Guo Chen, Weihua Luo, Yanye Lu\*\\
+**_ACM Transactions on Graphics (SIGGRAPH Asia 2026)_**\\
+[[pdf](https://arxiv.org/abs/2608.29322)] [[doi](https://doi.org/10.1145/3842526)] [[code](https://github.com/ATH-MaaS/Guided_Editing_for_Adaptive_Recycling_Search)]
+
+- **Assessing Response in Endoscopy Images of Esophageal Cancer Treated with Total Neoadjuvant Therapy via Hybrid-Architecture Ensemble Deep Learning**\\
+Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Chen\*, Qi Wu\*, Yanye Lu\*\\
+**_Frontiers in Oncology_**\\
+[[pdf](https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1590448/full)] [[doi](https://doi.org/10.3389/fonc.2025.1590448)] [[code](https://github.com/riverback/EC-HAENet)]
+
 ### Conference
 - **Training-free Test-time Improvement for Explainable Medical Image Classification**\\
 **Hangzhou He**\#, Jiachen Tang\#, Lei Zhu, Kaiwen Li, Yanye Lu\*\\
@@ -39,20 +51,10 @@ Yihao Zhang\#, **Hangzhou He**\#, Jingyu Zhu\#, Huanran Chen, Yifei Wang, Zeming
 **_ICML 2024_** (poster)\\
 [[pdf](https://arxiv.org/pdf/2402.15152.pdf)] [[doi](https://arxiv.org/abs/2402.15152)] [[code](https://github.com/weizeming/SAM_AT)]  
 
-### Journal
-- **Test-Time Scaling for Video Diffusion Models via Diagnosis-Guided Candidate Recycling**\\
-**Hangzhou He**, Lunhao Duan, Shanshan Zhao\*, Kaiwen Li, Qing-Guo Chen, Weihua Luo, Yanye Lu\*\\
-**_ACM Transactions on Graphics (SIGGRAPH Asia 2026)_**\\
-[[pdf](https://arxiv.org/abs/2608.29322)] [[doi](https://doi.org/10.1145/3842526)] [[code](https://github.com/ATH-MaaS/Guided_Editing_for_Adaptive_Recycling_Search)]
 
-- **Assessing Response in Endoscopy Images of Esophageal Cancer Treated with Total Neoadjuvant Therapy via Hybrid-Architecture Ensemble Deep Learning**\\
-Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Chen\*, Qi Wu\*, Yanye Lu\*\\
-**_Frontiers in Oncology_**\\
-[[pdf](https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1590448/full)] [[doi](https://doi.org/10.3389/fonc.2025.1590448)] [[code](https://github.com/riverback/EC-HAENet)]
-
-## Projects & Patents
+## Patents
 - **PyTorch Attribution Toolbox**\\
-  Feature attribution methods for explaining image classification models, with a Chinese patent (ZL 2024 1 0941326.8)\\
+  Robust feature attribution methods for explaining image classification models, Chinese Invention Patent (ZL 2024 1 0941326.8)\\
   [[Github](https://github.com/riverback/pytorch_attribution)]\\
   ![image](https://riverback.github.io/images/pytorch_attribution.png)
 
@@ -76,7 +78,7 @@ Peng Yuan\#, Meichen Liu\#, **Hangzhou He**\#, Liang Dai\#, Ya-Ya Wu, Ke-Neng Ch
 ## Internships
 2026.01 - 2026.9, AI Business / ATH MaaS, Alibaba Group
   - Test-Time Scaling, Agentic AIGC.
-  - Mentor: Dr. Shanshan Zhao
+  - Mentor: Dr. [Shanshan Zhao](https://sshan-zhao.github.io/)
 
 2023.07 - 2023.09, Beijing United Imaging Research Institute of Intelligent Imaging
   - Medical MLLMs.

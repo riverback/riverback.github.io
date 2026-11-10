@@ -1,7 +1,6 @@
 ---
 permalink: /
 title: ""
-description: "Hangzhou He — Ph.D. student at Peking University. Research in interpretable machine learning, medical image analysis, and visual generation."
 redirect_from: 
   - /about/
   - /about.html
@@ -9,11 +8,9 @@ redirect_from:
 
 ## About
 
-Hi! I'm Hangzhou He (<span lang="zh">何航舟</span>) from Peking University. I'm a Ph.D. student at the **M**olecular **I**maging and **M**achine **I**ntelligence Lab ([MILab](https://wiki.milab.wiki/)), under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=en&authuser=1&user=WSFToOMAAAAJ) (<span lang="zh">卢闫晔</span>) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=en&authuser=1&user=7cOdUFgAAAAJ) (<span lang="zh">任秋实</span>).
+Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>) from Peking University. I'm a Ph.D. student at the **M**olecular **I**maging and **M**achine **I**ntelligence Lab ([MILab](https://wiki.milab.wiki/)), under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=en&authuser=1&user=WSFToOMAAAAJ) (<font face=STKaiti>卢闫晔</font>) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=en&authuser=1&user=7cOdUFgAAAAJ) (<font face=STKaiti>任秋实</font>).
 
-My research interests include interpretable machine learning and medical image analysis. My recent work also explores test-time scaling and agentic visual creation.
-
-Feel free to [email me](mailto:zhuang@stu.pku.edu.cn) with questions or interesting ideas.
+Feel free to email me for any questions or interesting ideas.
 
 ## Selected Publications
 \#: Equal contribution · \*: Corresponding author
@@ -122,5 +119,4 @@ Feel free to [email me](mailto:zhuang@stu.pku.edu.cn) with questions or interest
 
 - **PyTorch Attribution Toolbox**  
   Robust feature attribution methods for explaining image classification models, Chinese Invention Patent (ZL 2024 1 0941326.8)  
-  [GitHub](https://github.com/riverback/pytorch_attribution)  
-  <img class="software-image" src="/images/pytorch_attribution.png" alt="PyTorch Attribution Toolbox: feature attribution examples" loading="lazy" width="460">
+  [GitHub](https://github.com/riverback/pytorch_attribution)

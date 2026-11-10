@@ -1,7 +1,7 @@
 # GitHub Pages / Jekyll configuration
 title: "Hangzhou He (何航舟)"
 name: "Hangzhou He"
-description: "Ph.D. student at Peking University working on interpretable machine learning, medical image analysis, and visual generation."
+description: "Ph.D. student at Peking University"
 locale: en
 url: "https://hangzhouhe.com"
 baseurl: ""

@@ -1,31 +1,16 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{{ site.locale | default: 'en' }}">
   <head>
     {% include head.html %}
-    {% include head/custom.html %}
   </head>
-
   <body>
-
-    {% include browser-upgrade.html %}
+    <a class="skip-link" href="#main">Skip to content</a>
     {% include masthead.html %}
-
-    {{ content }}
-    {% comment %}
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+    <div class="site-layout">
+      {% include author-profile.html %}
+      <main id="main" tabindex="-1">
+        {{ content }}
+      </main>
     </div>
-    {% endcomment %}
-    {% include scripts.html %}
-
   </body>
 </html>

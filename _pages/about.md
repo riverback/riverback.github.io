@@ -10,7 +10,7 @@ redirect_from:
 
 Hi! I'm Hangzhou He (<font face=STKaiti>何航舟</font>) from Peking University. I'm a Ph.D. student at the **M**olecular **I**maging and **M**achine **I**ntelligence Lab ([MILab](https://wiki.milab.wiki/)), under the supervision of assistant professor [Yanye Lu](https://scholar.google.com/citations?hl=en&authuser=1&user=WSFToOMAAAAJ) (<font face=STKaiti>卢闫晔</font>) and professor [Qiushi Ren](https://scholar.google.com/citations?hl=en&authuser=1&user=7cOdUFgAAAAJ) (<font face=STKaiti>任秋实</font>).
 
-My research focuses on the intersection of artificial intelligence and biomedical applications, with a particular emphasis on the trustworthiness of deep learning models, including explainability, generalization, and building interpretable models. Feel free to email me for any questions or interesting ideas.
+My research focuses on the intersection of artificial intelligence and biomedical applications, with a particular emphasis on the interpretability of deep learning models and explainable AI for knowledge discovery. Feel free to email me for any questions or interesting ideas.
 
 ## Selected Publications
 \#: Equal contribution · \*: Corresponding author
@@ -80,7 +80,7 @@ My research focuses on the intersection of artificial intelligence and biomedica
 
 - **Beijing United Imaging Research Institute of Intelligent Imaging**  
   <span class="experience-date">Jul. – Sep. 2023</span>  
-  Medical MLLMs.  
+  Medical MLLMs for imaging reporting system for degenerative cervical spine diseases. 
   Mentor: Dr. [Pei Dong](https://bme.shanghaitech.edu.cn/2021/0205/c10250a89895/page.htm)
 
 </div>
@@ -106,8 +106,8 @@ My research focuses on the intersection of artificial intelligence and biomedica
 
 ## Academic Service
 
-- Conference Reviewer: ICLR, NeurIPS, ICCV, CVPR, ECCV, BMVC, AAAI, MICCAI, IPMI
-- Workshop Reviewer: MKLM @ IJCAI, {iMIMIC, CARE} @ MICCAI
+- Conference Reviewer: ICLR, NeurIPS, ICML, ICCV, CVPR, ECCV, BMVC, AAAI, MICCAI, IPMI
+- Workshop Reviewer: {iMIMIC, CARE} @ MICCAI, MKLM @ IJCAI
 - Journal Reviewer: Biomedical Optics Express, Optics Express
 - Conference Volunteer: AAAI 2025
 
@@ -117,6 +117,4 @@ My research focuses on the intersection of artificial intelligence and biomedica
 
 ## Software & Patents
 
-- **PyTorch Attribution Toolbox**  
-  Robust feature attribution methods for explaining image classification models, Chinese Invention Patent (ZL 2024 1 0941326.8)  
-  [GitHub](https://github.com/riverback/pytorch_attribution)
+- **Chinese Invention Patent (ZL 2024 1 0941326.8)**: A robust model-based feature attribution algorithm with strong specificity.
